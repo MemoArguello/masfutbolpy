@@ -4675,10 +4675,30 @@ textarea.form-input {
 .post-classic-figure img {
 	max-width: inherit;
 	transition: all .3s;
+	
 }
 
 .post-classic-figure:hover img {
 	transform: scale(1.03);
+}
+
+.post-classic-figure-footer {
+    display: block;
+    overflow: hidden;
+    width: 100px; /* Cambia según lo necesites */
+    aspect-ratio: 16 / 9; /* Mantiene la proporción 16:9 */
+}
+
+.post-classic-figure-footer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Evita la distorsión */
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.post-classic-figure-footer:hover img {
+    transform: scale(1.03);
 }
 
 .post-classic-title {
@@ -6040,16 +6060,14 @@ textarea.form-input {
 }
 
 .post-alice img {
-	position: absolute;
-	top: 50%;
-	right: 50%;
-	transform: translate(50%, -50%) scale(1);
-	min-height: 100%;
-	min-width: 100%;
-	width: auto;
-	height: auto;
-	max-width: none;
-	transition: all .3s;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centra la imagen */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    object-position: center; /* Centra la imagen */
+    transition: transform 0.3s ease-in-out; /* Suaviza la transición */
 }
 
 @supports (object-fit: cover) {
