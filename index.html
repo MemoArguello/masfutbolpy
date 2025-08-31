@@ -382,41 +382,6 @@
             </div>
           </div>
 
-<script>
-  // Cargar JSON
-fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://webws.365scores.com/web/standings/?appTypeId=5&langId=14&timezoneName=America/Asuncion&userCountryId=108&competitions=621&live=false&stageNum=4"))
-    .then(res => res.json())
-    .then(data => {
-      const tabla = document.getElementById("tabla-body");
-
-      // Accedemos a los equipos dentro de standings[0].rows
-      const equipos = data.standings[0].rows;
-
-      equipos.forEach(eq => {
-        const fila = document.createElement("tr");
-
-        fila.innerHTML = `
-          <td><span>${eq.position}</span></td>
-          <td class="team-inline">
-            <div class="team-figure">
-              <img src="https://imagecache.365scores.com/image/upload/f_png,w_24,h_24,c_limit,q_auto:eco,dpr_2,d_Competitors:default1.png/v2/Competitors/${eq.competitor.id}" alt="${eq.competitor.name}" width="30" height="35" />
-            </div>
-            <div class="team-title">
-              <div class="team-name">${eq.competitor.name}</div>
-            </div>
-          </td>
-          <td>${eq.gamesWon}</td>
-          <td>${eq.gamesEven}</td>
-          <td>${eq.gamesLost}</td>
-          <td>${eq.points}</td>
-        `;
-
-        tabla.appendChild(fila);
-      });
-    })
-    .catch(err => console.error("Error cargando JSON:", err));
-</script>
-
               <div class="aside-component">
                 <!-- Heading Component-->
                 <article class="heading-component">
@@ -637,7 +602,7 @@ fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://webws.
   </script>
   <!--Script para tabla-->
 <script>
-fetch("https://masfutbolpy.free.nf/tabla.php?i=1")
+fetch("https://www.masfutbolpy.free.nf/tabla.php?i=1")
     .then(res => res.json())
     .then(data => {
       const tabla = document.getElementById("tabla-body");
@@ -667,7 +632,7 @@ fetch("https://masfutbolpy.free.nf/tabla.php?i=1")
 </script>
   <!--Script para goleadores-->
 <script>
-fetch("https://masfutbolpy.free.nf/goleadores.php?i=1")
+fetch("https://www.masfutbolpy.free.nf/goleadores.php?i=1")
   .then(res => res.json())
   .then(data => {
     const tbody = document.getElementById("goleadores-body");
