@@ -1,0 +1,56 @@
+{
+  "principales": [
+    {
+      "titulo": "Confirman convocatoria de Orlando Gill a la Albirroja",
+      "categoria": "Eliminatorias",
+      "fecha": "Marzo 14, 2025",
+      "imagen": "images/descarga (2).webp",
+      "link": "#"
+    },
+    {
+      "titulo": "Richar Sanchez es presentado en Racing",
+      "categoria": "Futbol Internacional",
+      "fecha": "Marzo 12, 2025",
+      "imagen": "images/Screenshot_20250312_201813_Photos.webp",
+      "link": "#"
+    },
+    {
+      "titulo": "Apertura 2025: Resumen y Análisis Fecha 8",
+      "categoria": "Torneo Apertura",
+      "fecha": "Marzo 9, 2025",
+      "imagen": "images/M2 (1).png",
+      "link": "#",
+      "video": "#modal1"
+    }
+  ],
+  "ultimas": [
+    {
+      "titulo": "¡Cecilio Domínguez volvió a desperdiciar un penal!",
+      "categoria": "Copa Libertadores",
+      "fecha": "Marzo 12, 2025",
+      "imagen": "images/Hu_250312_Deporte_Fut_News_Copa_Libertadores_Cecilio_Dominguez_Cerro_Porteno.jpg",
+      "link": "#"
+    },
+    {
+      "titulo": "Barcelona elimina a Corinthians y se clasifica a la fase de grupos",
+      "categoria": "Copa Libertadores",
+      "fecha": "Marzo 12, 2025",
+      "imagen": "images/descarga.webp",
+      "link": "#"
+    },
+    {
+      "titulo": "La baja confirmada en Paraguay para las Eliminatorias",
+      "categoria": "Copa Libertadores",
+      "fecha": "Marzo 12, 2025",
+      "imagen": "images/descarga (1).webp",
+      "link": "#"
+    },
+    {
+      "titulo": "Orlando Gill, convocado por Gustavo Alfaro",
+      "categoria": "Copa Libertadores",
+      "fecha": "Marzo 12, 2025",
+      "imagen": "images/descarga (2).webp",
+      "link": "#"
+    }
+  ]
+}
