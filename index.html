@@ -399,7 +399,7 @@ fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://webws.
           <td><span>${eq.position}</span></td>
           <td class="team-inline">
             <div class="team-figure">
-              <img src="${eq.competitor.logo}" alt="${eq.competitor.name}" width="30" height="35" />
+              <img src="https://imagecache.365scores.com/image/upload/f_png,w_24,h_24,c_limit,q_auto:eco,dpr_2,d_Competitors:default1.png/v2/Competitors/${eq.competitor.id}" alt="${eq.competitor.name}" width="30" height="35" />
             </div>
             <div class="team-title">
               <div class="team-name">${eq.competitor.name}</div>
@@ -424,132 +424,22 @@ fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://webws.
                     <h5 class="heading-component-title">Goleadores Primera División
                   </div>
                 </article>
-                <!-- Table team-->
                 <div class="table-custom-responsive">
                   <table class="table-custom table-standings table-classic">
                     <thead>
                       <tr>
                         <th>N°</th>
                         <th>Jugador</th>
-                        <th></th>
+                        <th>Equipo</th>
                         <th>Goles</th>
                       </tr>
                     </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td><img src="images/lorenzo_melgarejo.png" alt="Lorenzo Melgarejo" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name"> Lorenzo Melgarejo</div>
-                            <div class="team-country">Libertad</div>
-                          </div>
-                        </td>
-                        <td>6</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td><img src="images/fernando_fernandez.png" alt="Fernando Fernández" width="30" height="30">
-                        </td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Fernando Fernández</div>
-                            <div class="team-country">Guarani</div>
-                          </div>
-                        </td>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td><img src="images/juan_iturbe.png" alt="Juan Iturbe" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Juan Iturbe</div>
-                            <div class="team-country">Cerro Porteño</div>
-                          </div>
-                        </td>
-                        <td>4</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td><img src="images/rodney_redes.png" alt="Rodney Redes" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Rodney Redes</div>
-                            <div class="team-country">Olimpia</div>
-                          </div>
-                        </td>
-                        <td>4</td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td><img src="images/derlis_gonzales.png" alt="Derlis González" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Derlis González</div>
-                            <div class="team-country">Olimpia</div>
-                          </div>
-                        </td>
-                        <td>4</td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td><img src="images/alejandro_silva.png" alt="Alejandro Silva" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Alejandro Silva</div>
-                            <div class="team-country">Recoleta FC</div>
-                          </div>
-                        </td>
-                        <td>4</td>
-                      </tr>
-                      <tr>
-                        <td>7</td>
-                        <td><img src="images/cristian_ocampos.png" alt="Christian Ocampos" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Christian Ocampos</div>
-                            <div class="team-country">Spvo Ameliano</div>
-                          </div>
-                        </td>
-                        <td>3</td>
-                      </tr>
-                      <tr>
-                        <td>8</td>
-                        <td><img src="images/ronal_roa.png" alt="Ronald Roa" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Ronald Roa</div>
-                            <div class="team-country">Gral Caballero</div>
-                          </div>
-                        </td>
-                        <td>3</td>
-                      </tr>
-                      <tr>
-                        <td>9</td>
-                        <td><img src="images/jhonatan_torres.png" alt="Jonatan Torres" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Jonatan Torres</div>
-                            <div class="team-country">Cerro Porteño</div>
-                          </div>
-                        </td>
-                        <td>3</td>
-                      </tr>
-                      <tr>
-                        <td>10</td>
-                        <td><img src="images/ruben_lezcano.png" alt="Rubén Lezcano" width="30" height="30"></td>
-                        <td>
-                          <div class="team-title">
-                            <div class="team-name">Rubén Lezcano</div>
-                            <div class="team-country">Libertad</div>
-                          </div>
-                        </td>
-                        <td>3</td>
-                      </tr>
+                    <tbody id="goleadores-body">
+                      <!-- JS inserta aquí -->
                     </tbody>
                   </table>
                 </div>
+
               </div>
             </aside>
           </div>
@@ -745,16 +635,70 @@ fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://webws.
         });
       });
   </script>
-  <script>
-fetch("https://webws.365scores.com/web/standings/?appTypeId=5&langId=14&timezoneName=America/Asuncion&userCountryId=108&competitions=621&live=false&stageNum=4")
+  <!--Script para tabla-->
+<script>
+fetch("https://masfutbolpy.free.nf/tabla.php?i=1")
+    .then(res => res.json())
+    .then(data => {
+      const tabla = document.getElementById("tabla-body");
+      const equipos = data.standings[0].rows;
+
+      equipos.forEach(eq => {
+        const fila = document.createElement("tr");
+        fila.innerHTML = `
+          <td><span>${eq.position}</span></td>
+          <td class="team-inline">
+            <div class="team-figure">
+              <img src="${eq.competitor.logo}" alt="${eq.competitor.name}" width="30" height="35" />
+            </div>
+            <div class="team-title">
+              <div class="team-name">${eq.competitor.name}</div>
+            </div>
+          </td>
+          <td>${eq.gamesWon}</td>
+          <td>${eq.gamesEven}</td>
+          <td>${eq.gamesLost}</td>
+          <td>${eq.points}</td>
+        `;
+        tabla.appendChild(fila);
+      });
+    })
+    .catch(err => console.error("Error cargando JSON:", err));
+</script>
+  <!--Script para goleadores-->
+<script>
+fetch("https://masfutbolpy.free.nf/goleadores.php?i=1")
   .then(res => res.json())
   .then(data => {
-    console.log(data); // ver datos en consola
-    document.body.innerHTML += JSON.stringify(data);
-  })
-  .catch(err => console.error("Error:", err));
-</script>
+    const tbody = document.getElementById("goleadores-body");
 
+    const goleadores = data.stats.athletesStats[0].rows;
+
+    goleadores.forEach((jug, index) => {
+      const fila = document.createElement("tr");
+
+      // URL de la foto del jugador (ejemplo usando 365scores)
+      const imgUrl = `https://images.365scores.com/image/upload/f_png,w_60,h_60,c_limit,q_auto:eco,dpr_2,f_auto/v${jug.entity.imageVersion}/athletes/${jug.entity.id}`;
+
+      fila.innerHTML = `
+        <td>${index + 1}</td>
+        <td>
+          <img src="${imgUrl}" alt="${jug.entity.name}" width="30" height="30">
+        </td>
+        <td>
+          <div class="team-title">
+            <div class="team-name">${jug.entity.name}</div>
+            <div class="team-country">${jug.entity.positionName}</div>
+          </div>
+        </td>
+        <td>${jug.stats[0].value}</td>
+      `;
+
+      tbody.appendChild(fila);
+    });
+  })
+  .catch(err => console.error("Error cargando goleadores:", err));
+</script>
 </body>
 
 </html>
