@@ -384,7 +384,7 @@
 
 <script>
   // Cargar JSON
-fetch("https://webws.365scores.com/web/standings/?appTypeId=5&langId=14&timezoneName=America/Asuncion&userCountryId=108&competitions=621&live=false&stageNum=4")
+fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://webws.365scores.com/web/standings/?appTypeId=5&langId=14&timezoneName=America/Asuncion&userCountryId=108&competitions=621&live=false&stageNum=4"))
     .then(res => res.json())
     .then(data => {
       const tabla = document.getElementById("tabla-body");
