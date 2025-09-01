@@ -9863,7 +9863,6 @@ footer.footer-creative {
 }
 
 .game-result-creative {
-	max-width: 450px;
 	border-bottom: 3px solid #c9dbda;
 }
 
@@ -18366,13 +18365,7 @@ html.rd-navbar-fixed-linked .page {
 	height: 50px;
 }
 
-.post-slider .swiper-button-next, .post-slider .swiper-button-prev {
-	width: 35px;
-	height: 35px;
-	font-size: 30px;
-	border: 2px solid #fff;
-	opacity: .5;
-}
+
 
 .post-slider .swiper-button-next::before, .post-slider .swiper-button-prev::before {
 	font-family: 'Material Icons';
