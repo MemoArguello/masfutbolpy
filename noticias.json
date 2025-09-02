@@ -1,64 +1,196 @@
 {
-  "principales": [
-    {
-      "titulo": "Confirman convocatoria de Orlando Gill a la Albirroja",
-      "categoria": "Eliminatorias",
-      "fecha": "Marzo 14, 2025",
-      "imagen": "images/descarga (2).webp",
-      "link": "#"
-    },
-    {
-      "titulo": "Richar Sanchez es presentado en Racing",
-      "categoria": "Futbol Internacional",
-      "fecha": "Marzo 12, 2025",
-      "imagen": "images/Screenshot_20250312_201813_Photos.webp",
-      "link": "#"
-    },
-    {
-      "titulo": "Apertura 2025: Resumen y Análisis Fecha 8",
-      "categoria": "Torneo Apertura",
-      "fecha": "Marzo 9, 2025",
-      "imagen": "images/M2 (1).png",
-      "link": "#",
-      "video": "#modal1"
-    }
-  ],
-  "ultimas": [
-    {
-      "titulo": "¡Cecilio Domínguez volvió a desperdiciar un penal!",
-      "categoria": "Copa Libertadores",
-      "fecha": "Marzo 12, 2025",
-      "imagen": "images/Hu_250312_Deporte_Fut_News_Copa_Libertadores_Cecilio_Dominguez_Cerro_Porteno.jpg",
-      "link": "#",
-      "descripcion": "Tras varios días de incertidumbre, finalmente Julio Enciso fue presentado como nuevo jugador del Racing de Estrasburgo, que milita en la Ligue 1. El contrato del jugador paraguayo es hasta el 2029. La novela protagonizada por el ofensivo guaraní contó con varios capítulos que hasta se insinuó que no se realizaría la compra por no haber superado una de las pruebas médicas a la que lo sometieron. Sin embargo, Julio Enciso hoy se convirtió en manera oficial en futbolista del conjunto francés. “Bienvenue Julio”, dice el club en sus redes sociales. Fue por este tema que el atleta pidió no ser llamado por Gustavo Alfaro, seleccionador de Paraguay, para el último combo de las Eliminatorias Sudamericanas. El Racing de Estrasburgo se convierte en el cuarto club de Julio Enciso, que debutó en Libertad en 2019, fue adquirido por el Brighton y fue cedido al Ipswich Town. El Grupo BlueCo, dueño de la entidad francesa, también es el mismo que maneja al Chelsea por lo que el atacante tiene altas chances de pasar nuevamente a la Premier League."
-    },
-    {
-      "titulo": "Barcelona elimina a Corinthians y se clasifica a la fase de grupos",
-      "categoria": "Copa Libertadores",
-      "fecha": "Marzo 12, 2025",
-      "imagen": "images/descarga.webp",
-      "link": "#"
-    },
-    {
-      "titulo": "La baja confirmada en Paraguay para las Eliminatorias",
-      "categoria": "Copa Libertadores",
-      "fecha": "Marzo 12, 2025",
-      "imagen": "images/descarga (1).webp",
-      "link": "#"
-    },
-    {
-      "titulo": "Orlando Gill, convocado por Gustavo Alfaro",
-      "categoria": "Copa Libertadores",
-      "fecha": "Marzo 12, 2025",
-      "imagen": "images/descarga (2).webp",
-      "link": "#"
-    },
-    {
-      "titulo": "Orlando Gill, convocado por Gustavo Alfaro",
-      "categoria": "Copa Libertadores",
-      "fecha": "Marzo 12, 2025",
-      "imagen": "images/descarga (2).webp",
-      "link": "#"
-    }
-  ]
+    "news": [
+        {
+            "id": 180223490,
+            "publishDate": "2025-08-31T10:30:00-03:00",
+            "sourceId": 2262,
+            "title": "Qué canal pasa Libertad vs Cerro Porteño hoy: dónde ver el partido gratis de la Copa de Primera",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/08\/photo_5017443600950210191_y.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/donde-ver-libertad-vs-cerro-porteno-hoy\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
+            "id": 180282977,
+            "publishDate": "2025-09-02T11:29:40-03:00",
+            "sourceId": 2315,
+            "title": "¡Con nuevo look y toda la ilusión! Julio Enciso ya está en Francia",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02112831\/Julito-e1756823328921.jpeg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/con-nuevo-look-y-toda-la-ilusion-julio-enciso-ya-esta-en-francia\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180282715,
+            "publishDate": "2025-09-02T11:16:45-03:00",
+            "sourceId": 2315,
+            "title": "Olimpia: no está del todo recuperado y aguardan el alta definitiva",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/07\/07073648\/GvMu-F6WUAADSjo.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/olimpia-no-esta-del-todo-recuperado-y-aguardan-el-alta-definitiva\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180282631,
+            "publishDate": "2025-09-02T11:07:34-03:00",
+            "sourceId": 2315,
+            "title": "Los números del plantel albirrojo ante el último combo",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02110702\/GzywnTDWkAAiaMP.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/los-numeros-del-plantel-albirrojo-ante-el-ultimo-combo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180282209,
+            "publishDate": "2025-09-02T10:36:36-03:00",
+            "sourceId": 2315,
+            "title": "Diego Gómez se refirió a su compañero y amigo Julio Enciso",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/03\/27075547\/Jullito-e1743073015490.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/diego-gomez-se-refirio-a-su-companero-y-amigo-julio-enciso\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180280570,
+            "publishDate": "2025-09-02T08:57:38-03:00",
+            "sourceId": 2315,
+            "title": "Diego Gómez, de ver a la Albirroja por TV a ser partícipe de \"algo único\"",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02085626\/Captura-de-Pantalla-2025-09-02-a-las-08.54.12.png",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/diego-gomez-de-ver-a-la-albirroja-por-tv-a-ser-participe-de-algo-unico\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180280016,
+            "publishDate": "2025-09-02T08:11:18-03:00",
+            "sourceId": 2315,
+            "title": "Acusa viveza de Cecilio Domínguez: \"Busca aprovecha la situación\"",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02081027\/asasas.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/acusa-viveza-de-cecilio-dominguez-busca-aprovecha-la-situacion\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180279697,
+            "publishDate": "2025-09-02T07:55:25-03:00",
+            "sourceId": 2315,
+            "title": "La figura de Ecuador que elogió a Alfaro y se refirió al duelo con Paraguay",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2024\/10\/11164033\/000_36JU8R7-e1728675674347.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/la-figura-de-ecuador-que-elogio-a-alfaro-y-se-refirio-al-duelo-con-paraguay\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180279696,
+            "publishDate": "2025-09-02T07:54:51-03:00",
+            "sourceId": 2315,
+            "title": "Así vio el VAR la jugada más polémica del Olimpia vs. Luqueño",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02074256\/brr.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/asi-vio-el-var-la-jugada-mas-polemica-del-olimpia-vs-luqueno\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180279313,
+            "publishDate": "2025-09-02T07:29:41-03:00",
+            "sourceId": 2315,
+            "title": "Clar se hace cada vez más importante en el Chapecoense",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02072918\/GzXm6P_W0AA_n5i.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/walter-clar-se-hace-cada-vez-mas-importante-en-el-chapecoense\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180278724,
+            "publishDate": "2025-09-02T06:57:39-03:00",
+            "sourceId": 2315,
+            "title": "Terminó el ciclo de Juan Manuel Salgueiro en el bajo Chaco",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/07\/15061607\/Gv2j3EtXkAE99Y3.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/termino-el-ciclo-de-juan-manuel-salgueiro-en-el-bajo-chaco\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180278595,
+            "publishDate": "2025-09-02T06:47:20-03:00",
+            "sourceId": 2315,
+            "title": "Liverpool ficha al sueco Isak en un traspaso considerado récord en Inglaterra",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02064700\/Gzy35BfWAAAxq3u.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/liverpool-ficha-al-sueco-isak-en-un-traspaso-considerado-record-en-inglaterra\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180278368,
+            "publishDate": "2025-09-02T06:36:51-03:00",
+            "sourceId": 2315,
+            "title": "Entre bajas y caras nuevas, Paraguay ya se mueve con el Mundial en el horizonte",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02063554\/IMG_4228-1.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/entre-bajas-y-caras-nuevas-paraguay-ya-se-mueve-con-el-mundial-en-el-horizonte\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180278046,
+            "publishDate": "2025-09-02T06:21:15-03:00",
+            "sourceId": 2315,
+            "title": "El paraguayo que zanja su carrera en Europa y se muda al fútbol árabe",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02062039\/https___arc-anglerfish-arc2-prod-lanacionpy.s3.amazonaws.com_public_2IUWMVMMCRE6FOPPIGBHTD6HOU.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/el-paraguayo-que-zanja-su-carrera-en-europa-y-se-muda-al-futbol-arabe\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180277796,
+            "publishDate": "2025-09-02T06:10:51-03:00",
+            "sourceId": 2315,
+            "title": "Darwin Núñez retorna a la selección de Uruguay",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02061034\/Gzrw9wFW0AA9xjY.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/darwin-nunez-retorna-a-la-seleccion-de-uruguay\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180277795,
+            "publishDate": "2025-09-02T06:06:32-03:00",
+            "sourceId": 2315,
+            "title": "Revés ante el Supremo y Robinho continuará entre rejas",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02060618\/robii.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/reves-ante-el-supremo-y-robinho-continuara-entre-rejas\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180277657,
+            "publishDate": "2025-09-02T06:00:18-03:00",
+            "sourceId": 2315,
+            "title": "Osaka le amarga otro US Open a Coco Gauff",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02055954\/AFP__20250901__733W98D__v1__HighRes__TennisUsaOpen.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/osaka-le-amarga-otro-us-open-a-coco-gauff\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180277536,
+            "publishDate": "2025-09-02T05:56:56-03:00",
+            "sourceId": 2315,
+            "title": "Villegas apuesta por lo mejor de Bolivia para duelos cruciales ante Colombia y Brasil",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02055637\/whatsapp-image-2025-02-10-at-9.02.27-am.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/villegas-apuesta-por-lo-mejor-de-bolivia-para-duelos-cruciales-ante-colombia-y-brasil\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180277441,
+            "publishDate": "2025-09-02T05:51:48-03:00",
+            "sourceId": 2315,
+            "title": "Llega el Interdeportivo 2025 del Faith Christian School",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02055130\/3b1d79ed-8d0f-4581-bd70-fae7c31f5973.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/llega-el-interdeportivo-2025-del-faith-christian-school\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        },
+        {
+            "id": 180260457,
+            "publishDate": "2025-09-01T18:42:28-03:00",
+            "sourceId": 2315,
+            "title": "Alexis \"Pulpito\" Duarte deja Rusia y llega a un grande de Sudamérica",
+            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/06\/20074700\/image-1.jpg",
+            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/01\/alexis-pulpito-duarte-deja-rusia-y-llega-a-un-grande-de-sudamerica\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
+        }
+    ],
+    "newsSources": [
+        {
+            "id": 2262,
+            "name": "365Scores noticias",
+            "imageVersion": 1
+        },
+        {
+            "id": 2315,
+            "name": "Versus",
+            "imageVersion": 1
+        }
+    ]
 }

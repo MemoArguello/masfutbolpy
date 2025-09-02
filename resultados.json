@@ -1,5 +1,5 @@
 {
-    "lastUpdateId": 5375147452,
+    "lastUpdateId": 5376989514,
     "requestedUpdateId": -1,
     "ttl": 300,
     "paging": {
@@ -33,6 +33,7 @@
             "sportId": 1,
             "name": "Copa de Primera",
             "hasStandings": true,
+            "hasLiveStandings": false,
             "hasStandingsGroups": false,
             "hasBrackets": false,
             "nameForURL": "copa-de-primera",

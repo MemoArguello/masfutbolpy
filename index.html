@@ -135,13 +135,13 @@
                   <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Inicio</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="https://livedemo00.template-help.com/wt_63853_v4/soccer/index.html">Fútbol Local</a>
+                      href="">Fútbol Local</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="https://livedemo00.template-help.com/wt_63853_v4/soccer/index.html">Fútbol Internacional</a>
+                      href="">Fútbol Internacional</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="https://livedemo00.template-help.com/wt_63853_v4/soccer/index.html">Otros Deportes</a>
+                      href="">Otros Deportes</a>
                   </li>
                 </ul>
                 <div class="rd-navbar-main-element">
@@ -410,66 +410,8 @@
                 <div class="col-sm-6">
                   <!-- Post Classic-->
                   <article class="post-classic">
-                    <div class="post-classic-aside"><a class="post-classic-figure-footer" href="#"><img
-                          src="images/descarga (1).webp" alt="" width="93" height="87" /></a></div>
-                    <div class="post-classic-main">
-                      <!-- Badge-->
-                      <div class="badge badge-secondary">Eliminatorias
-                      </div>
-                      <p class="post-classic-title"><a href="#">Baja confirmada en Paraguay</a></p>
-                      <div class="post-classic-time"><span class="icon mdi mdi-clock"></span>
-                        <time datetime="2020">Marzo 10, 2025</time>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-sm-6">
-                  <!-- Post Classic-->
-                  <article class="post-classic">
-                    <div class="post-classic-aside"><a class="post-classic-figure-footer" href="#"><img
-                          src="images/Gl4ddKlWQAABnCn.jpg" alt="" width="93" height="87" /></a></div>
-                    <div class="post-classic-main">
-                      <!-- Badge-->
-                      <div class="badge badge-secondary">Futbol Internacional</span>
-                      </div>
-                      <p class="post-classic-title"><a href="#">Diego Martinez: Seguiremos Trabajando</a></p>
-                      <div class="post-classic-time"><span class="icon mdi mdi-clock"></span>
-                        <time datetime="2020">Marzo 13, 2025</time>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-sm-6">
-                  <!-- Post Classic-->
-                  <article class="post-classic">
-                    <div class="post-classic-aside"><a class="post-classic-figure-footer" href="#"><img
-                          src="images/rojas.jpg" alt="" width="93" height="87" /></a></div>
-                    <div class="post-classic-main">
-                      <!-- Badge-->
-                      <div class="badge badge-primary">Futbol Paraguayo
-                      </div>
-                      <p class="post-classic-title"><a href="#">Robert Rojas sería titular el sábado ante el
-                          'Gumarelo'</a></p>
-                      <div class="post-classic-time"><span class="icon mdi mdi-clock"></span>
-                        <time datetime="2020">Marzo 15, 2020</time>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-sm-6">
-                  <!-- Post Classic-->
-                  <article class="post-classic">
-                    <div class="post-classic-aside"><a class="post-classic-figure-footer" href="#"><img
-                          src="images/Screenshot_20250312_201813_Photos.webp" alt="" width="93" height="87" /></a></div>
-                    <div class="post-classic-main">
-                      <!-- Badge-->
-                      <div class="badge badge-primary">Futbol Internacional
-                      </div>
-                      <p class="post-classic-title"><a href="#">Richard Sanchez es presentado en Racing</a></p>
-                      <div class="post-classic-time"><span class="icon mdi mdi-clock"></span>
-                        <time datetime="2020">Marzo 13, 2025</time>
-                      </div>
-                    </div>
+
+
                   </article>
                 </div>
               </div>
@@ -507,22 +449,34 @@
 fetch("noticias.json")
   .then(res => res.json())
   .then(data => {
-    // Principales
+    // Ordenar noticias por fecha descendente (más nuevas primero)
+    const noticiasOrdenadas = data.news.sort(
+      (a, b) => new Date(b.publishDate) - new Date(a.publishDate)
+    );
+
+    // Tomar las 3 primeras como principales
+    const principalesNoticias = noticiasOrdenadas.slice(0, 3);
+    // El resto para "últimas"
+    const ultimasNoticias = noticiasOrdenadas.slice(3);
+
+    // Render principales
     const principales = document.getElementById("principales");
-    data.principales.forEach((n, index) => {
+    principalesNoticias.forEach((n, index) => {
       principales.innerHTML += `
         <div class="swiper-slide">
           <div class="swiper-slide-caption">
             <article class="post-alice">
-              <img src="${n.imagen}" alt="${n.titulo}" width="769" height="397" />
+              <img src="${n.image}" alt="${n.title}" width="769" height="397" />
               <div class="post-alice-main">
-                <div class="badge badge-secondary">${n.categoria}</div>
+                <div class="badge badge-secondary">${n.isMagazine ? "Magazine" : "Noticia"}</div>
                 <h3 class="post-alice-title">
-                  <a href="noticia.html?tipo=principales&id=${index}">${n.titulo}</a>
+                  <a href="noticia.html?id=${n.id}">${n.title}</a>
                 </h3>
                 <div class="divider"></div>
                 <div class="post-alice-time"><span class="icon mdi mdi-clock"></span>
-                  <time>${n.fecha}</time>
+                  <time>${new Date(n.publishDate).toLocaleDateString("es-ES", {
+                    day: "numeric", month: "long", year: "numeric"
+                  })}</time>
                 </div>
               </div>
             </article>
@@ -531,23 +485,25 @@ fetch("noticias.json")
       `;
     });
 
-    // Últimas
+    // Render últimas
     const ultimas = document.getElementById("ultimas");
-    data.ultimas.forEach((n, index) => {
+    ultimasNoticias.forEach((n, index) => {
       ultimas.innerHTML += `
         <div class="col-md-6">
           <article class="post-future">
-            <a class="post-future-figure" href="noticia.html?tipo=ultimas&id=${index}">
-              <img src="${n.imagen}" alt="${n.titulo}" width="368" height="287" />
+            <a class="post-future-figure" href="noticia.html?id=${n.id}">
+              <img src="${n.image}" alt="${n.title}" width="368" height="287" />
             </a>
             <div class="post-future-main">
               <h4 class="post-future-title">
-                <a href="noticia.html?tipo=ultimas&id=${index}">${n.titulo}</a>
+                <a href="noticia.html?id=${n.id}">${n.title}</a>
               </h4>
               <div class="post-future-meta">
-                <div class="badge badge-secondary">${n.categoria}</div>
+                <div class="badge badge-secondary">${n.isMagazine ? "Magazine" : "Noticia"}</div>
                 <div class="post-future-time"><span class="icon mdi mdi-clock"></span>
-                  <time>${n.fecha}</time>
+                  <time>${new Date(n.publishDate).toLocaleDateString("es-ES", {
+                    day: "numeric", month: "long", year: "numeric"
+                  })}</time>
                 </div>
               </div>
             </div>
@@ -557,6 +513,7 @@ fetch("noticias.json")
     });
   });
 </script>
+
 
   <!--Script para tabla-->
   <script>
@@ -726,6 +683,50 @@ fetch("noticias.json")
       .catch(err => console.error("Error cargando resultados:", err));
   </script>
 
+<script>
+fetch("noticiasparaguay.json")
+  .then(res => res.json())
+  .then(data => {
+    // Ordenar por fecha descendente (más recientes primero)
+    const noticias = data.news.sort(
+      (a, b) => new Date(b.publishDate) - new Date(a.publishDate)
+    );
+
+    // Seleccionar el contenedor
+    const listContainer = document.querySelector(".list-post-classic");
+
+    // Limpiar contenido previo
+    listContainer.innerHTML = "";
+
+    // Insertar cada noticia como "post-classic"
+    noticias.forEach(n => {
+      listContainer.innerHTML += `
+        <article class="post-classic">
+          <div class="post-classic-aside">
+            <a class="post-classic-figure" href="noticia.html?id=${n.id}">
+              <img src="${n.image}" alt="${n.title}" width="94" height="94" />
+            </a>
+          </div>
+          <div class="post-classic-main">
+            <p class="post-classic-title">
+              <a href="noticia.html?id=${n.id}">${n.title}</a>
+            </p>
+            <div class="post-classic-time">
+              <span class="icon mdi mdi-clock"></span>
+              <time datetime="${n.publishDate}">
+                ${new Date(n.publishDate).toLocaleDateString("es-ES", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric"
+                })}
+              </time>
+            </div>
+          </div>
+        </article>
+      `;
+    });
+  });
+</script>
 
 </body>
 
