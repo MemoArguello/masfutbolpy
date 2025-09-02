@@ -5084,7 +5084,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "1.21"
+                    "value": "1.22"
                 },
                 "rows": [
                     {
@@ -5370,7 +5370,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "1.21"
+                    "value": "1.22"
                 },
                 "rows": [
                     {
@@ -6985,7 +6985,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "2.44"
+                    "value": "2.45"
                 },
                 "rows": [
                     {
@@ -7355,6 +7355,7 @@
             "sportId": 1,
             "name": "Copa de Primera",
             "hasStandings": true,
+            "hasLiveStandings": false,
             "hasStandingsGroups": false,
             "hasBrackets": false,
             "hasStats": true,
