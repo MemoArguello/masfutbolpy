@@ -134,13 +134,13 @@
                   <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Inicio</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="https://livedemo00.template-help.com/wt_63853_v4/soccer/index.html">Fútbol Local</a>
+                      href="envivotg.html">Fútbol Local</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="https://livedemo00.template-help.com/wt_63853_v4/soccer/index.html">Fútbol Internacional</a>
+                      href="">Fútbol Internacional</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="https://livedemo00.template-help.com/wt_63853_v4/soccer/index.html">Otros Deportes</a>
+                      href="">Otros Deportes</a>
                   </li>
                 </ul>
                 <div class="rd-navbar-main-element">
@@ -171,14 +171,33 @@
     <section class="section section-md bg-white-100">
       <div class="container">
         <div class="row row-50">
-          <div class="main-component">
-            <div class="col-md-12">
-              <div class="main-component">
-                <div class="col-lg-10">
-                  <div id="detalle"></div>
-                </div>
+          <div class="col-lg-8">
+            <div class="row row-30">
+              <div class="col-md-12">
+                <div id="detalle"></div>
               </div>
             </div>
+          </div>
+          <!-- Aside Block-->
+          <div class="col-lg-4">
+
+            <aside class="aside-components">
+
+              <div class="aside-component">
+                <!-- Heading Component-->
+                <article class="heading-component">
+                  <div class="heading-component-inner">
+                    <h5 class="heading-component-title">Últimas Noticias</h5>
+                    <a class="button button-xs button-gray-outline" href="index.html">Ver todos</a>
+                  </div>
+                </article>
+
+                <!-- List Post Classic-->
+                <div class="list-post-classic" id="ultimas"></div>
+
+              </div>
+
+            </aside>
           </div>
         </div>
       </div>
@@ -189,49 +208,103 @@
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  // Obtener ID de la noticia actual desde la URL
+  const params2 = new URLSearchParams(window.location.search);
+  const noticiaId = parseInt(params2.get("id"));
+
+  fetch("noticias.json")
+    .then(res => res.json())
+    .then(data => {
+      // Ordenar por fecha descendente
+      const noticiasOrdenadas = data.news.sort(
+        (a, b) => new Date(b.publishDate) - new Date(a.publishDate)
+      );
+
+      // Filtrar para que no muestre la noticia actual
+      const ultimasNoticias = noticiasOrdenadas
+        .filter(n => n.id !== noticiaId)
+        .slice(0, 5); // máximo 5 noticias
+
+      const ultimas = document.getElementById("ultimas");
+
+      ultimasNoticias.forEach(n => {
+        ultimas.innerHTML += `
+          <article class="post-classic">
+            <div class="post-classic-aside">
+              <a class="post-classic-figure" href="noticia.html?id=${n.id}">
+                <img src="${n.image}" alt="${n.title}" width="150" height="100">
+              </a>
+            </div>
+            <div class="post-classic-main">
+              <p class="post-classic-title">
+                <a href="noticia.html?id=${n.id}">${n.title}</a>
+              </p>
+              <div class="post-classic-time">
+                <span class="icon mdi mdi-clock"></span>
+                <time>
+                  ${new Date(n.publishDate).toLocaleDateString("es-ES", {
+                    day: "numeric", month: "short"
+                  })}
+                </time>
+              </div>
+            </div>
+          </article>
+        `;
+      });
+    })
+    .catch(err => console.error("Error cargando noticias:", err));
+</script>
+
+
   <script>
     // 1. Leer parámetros de la URL
     const params = new URLSearchParams(window.location.search);
-    const tipo = params.get("tipo");   // "principales" o "ultimas"
-    const id = parseInt(params.get("id"));
+    const id = parseInt(params.get("id")); // ID de la noticia
 
     // 2. Cargar JSON
     fetch("noticias.json")
       .then(res => res.json())
       .then(data => {
-        const noticia = data[tipo][id]; // ejemplo: data.principales[0]
+        // Buscar la noticia por ID dentro de "news"
+        const noticia = data.news.find(n => n.id === id);
 
         if (noticia) {
           document.getElementById("detalle").innerHTML = `
-          <h3 class="heading-component-title">${noticia.titulo}</h3>
-          <br></br>
+          <h3 class="heading-component-title">${noticia.title}</h3>
+          <br>
           <figure class="post-classic-figure">
-            <img src="${noticia.imagen}" alt="${noticia.titulo}" class="img-fluid" />
+            <img src="${noticia.image}" alt="${noticia.title}" width="750" height="700">
           </figure>
-              <article class="post-classic">
-                <!-- Imagen principal -->
+          <article class="post-classic">
+            <div class="post-classic-main">
+              <div class="badge badge-secondary">${noticia.isMagazine ? "Magazine" : "Noticia"}</div>
+              
+              <div class="post-classic-meta mb-3">
+                <span class="icon mdi mdi-clock"></span>
+                <time>${new Date(noticia.publishDate).toLocaleDateString("es-ES", {
+            day: "numeric", month: "long", year: "numeric"
+          })}</time>
+              </div>
 
-                <!-- Contenido -->
-                <div class="post-classic-main">
-                  <div class="badge badge-secondary mb-2">${noticia.categoria}</div>
-                  
-                  <div class="post-classic-meta mb-3">
-                    <span class="icon mdi mdi-clock"></span>
-                    <time>${noticia.fecha}</time>
-                  </div>
-                  <p>
-                    ${noticia.descripcion || "Aquí iría el contenido completo de la noticia..."}
-                  </p>
-                  <a href="index.html" class="button button-sm button-primary mt-3">← Volver</a>
-                </div>
-              </article>
-  `;
+              <p>
+                <a href="${noticia.url}" target="_blank">Leer más en la fuente original</a>
+              </p>
+
+              <a href="index.html" class="button button-sm button-primary mt-3">← Volver</a>
+            </div>
+          </article>
+        `;
         } else {
           document.getElementById("detalle").innerHTML = `<p>No se encontró la noticia.</p>`;
         }
-
+      })
+      .catch(err => {
+        console.error("Error cargando noticia:", err);
+        document.getElementById("detalle").innerHTML = `<p>Error cargando la noticia.</p>`;
       });
   </script>
+
 </body>
 
 </html>
