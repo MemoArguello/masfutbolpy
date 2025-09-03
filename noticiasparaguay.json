@@ -1,6 +1,24 @@
 {
     "news": [
         {
+            "id": 180291650,
+            "publishDate": "2025-09-02T23:59:26-03:00",
+            "sourceId": 2262,
+            "title": "Paraguay vs Ecuador: historial en la previa del partido por Eliminatorias Sudamericana",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Paraguay-vs-Ecuador-historial.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-ecuador-historial-numeros\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
+            "id": 180291711,
+            "publishDate": "2025-09-02T22:10:00-03:00",
+            "sourceId": 2262,
+            "title": "Paraguay vs Ecuador: últimos 10 resultados por Eliminatorias Sudamericanas",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Paraguay-vs-Ecuador-ultimos-10-resultados.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-ecuador-ultimos-resultados\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
             "id": 180262915,
             "publishDate": "2025-09-01T21:27:12-03:00",
             "sourceId": 2262,
@@ -8,35 +26,12 @@
             "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/portada-para-escudos-con-vivo-2025-09-01T200315.522.jpg",
             "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-ecuador-previa-duelo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
             "isMagazine": true
-        },
-        {
-            "id": 180145593,
-            "publishDate": "2025-08-27T17:16:34-03:00",
-            "sourceId": 2262,
-            "title": "Gol de Diego Gómez vs Oxford: cuántos lleva en Brighton",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/08\/GettyImages-2228295364-1024x681.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/diego-gomez-gol-vs-oxford-cuantos-lleva\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
-        },
-        {
-            "id": 180283932,
-            "publishDate": "2025-09-02T12:39:01-03:00",
-            "sourceId": 2315,
-            "title": "Juan José Cáceres: \"Significa mucho representar al país de toda mi familia\"",
-            "image": "https:\/\/versuspy2.fra1.cdn.digitaloceanspaces.com\/versus\/wp-content\/uploads\/2025\/09\/02123830\/juanseis.jpg",
-            "url": "https:\/\/www.versus.com.py\/versus\/2025\/09\/02\/juan-jose-caceres-significa-mucho-representar-al-pais-de-toda-mi-familia\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": false
         }
     ],
     "newsSources": [
         {
             "id": 2262,
             "name": "365Scores noticias",
-            "imageVersion": 1
-        },
-        {
-            "id": 2315,
-            "name": "Versus",
             "imageVersion": 1
         }
     ]
