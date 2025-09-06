@@ -415,11 +415,12 @@
         );
 
         // Tomar las 4 primeras como principales
-        const principalesNoticias = noticiasOrdenadas.slice(0, 4);
+        const principalesNoticias = noticiasOrdenadas.slice(0, 3);
         // El resto para "últimas"
         const ultimasNoticias = noticiasOrdenadas.slice(3);
 
         // Render principales
+        //<a href="noticia.html?id=${n.id}">${n.title}</a>
         const principales = document.getElementById("principales");
         principalesNoticias.forEach((n, index) => {
           principales.innerHTML += `
@@ -428,9 +429,9 @@
             <article class="post-alice">
               <img src="${n.image}" alt="${n.title}" width="769" height="397" />
               <div class="post-alice-main">
-                <div class="badge badge-secondary">${n.isMagazine ? "Magazine" : "Noticia"}</div>
+                <div class="badge badge-primary">${n.isMagazine ? "Magazine" : "Versus"}</div>
                 <h3 class="post-alice-title">
-                  <a href="noticia.html?id=${n.id}">${n.title}</a>
+                  <a href="${n.url}">${n.title}</a>
                 </h3>
                 <div class="divider"></div>
                 <div class="post-alice-time"><span class="icon mdi mdi-clock"></span>
@@ -456,10 +457,10 @@
             </a>
             <div class="post-future-main">
               <h4 class="post-future-title">
-                <a href="noticia.html?id=${n.id}">${n.title}</a>
+                <a href="${n.url}">${n.title}</a>
               </h4>
               <div class="post-future-meta">
-                <div class="badge badge-secondary">${n.isMagazine ? "Magazine" : "Noticia"}</div>
+                <div class="badge badge-primary">${n.isMagazine ? "Magazine" : "Versus"}</div>
                 <div class="post-future-time"><span class="icon mdi mdi-clock"></span>
                   <time>${new Date(n.publishDate).toLocaleDateString("es-ES", {
             day: "numeric", month: "long", year: "numeric"
