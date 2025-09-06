@@ -5105,7 +5105,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "1.22"
+                    "value": "1.23"
                 },
                 "rows": [
                     {
@@ -5391,7 +5391,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "1.22"
+                    "value": "1.23"
                 },
                 "rows": [
                     {
@@ -6241,7 +6241,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "4.35"
+                    "value": "4.36"
                 },
                 "rows": [
                     {
@@ -7029,7 +7029,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "2.45"
+                    "value": "2.47"
                 },
                 "rows": [
                     {
@@ -7399,7 +7399,6 @@
             "sportId": 1,
             "name": "Copa de Primera",
             "hasStandings": true,
-            "hasLiveStandings": false,
             "hasStandingsGroups": false,
             "hasBrackets": false,
             "hasStats": true,
@@ -7537,7 +7536,7 @@
             "imageVersion": 2,
             "color": "#3E5CAB",
             "awayColor": "#FFFFFF",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
@@ -7556,7 +7555,7 @@
             "imageVersion": 4,
             "color": "#1F3580",
             "awayColor": "#FFFFFF",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
@@ -7575,7 +7574,7 @@
             "imageVersion": 2,
             "color": "#B81610",
             "awayColor": "#FFFFFF",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
@@ -7613,7 +7612,7 @@
             "imageVersion": 3,
             "color": "#D7AB4F",
             "awayColor": "#000000",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
@@ -7650,7 +7649,7 @@
             "imageVersion": 1,
             "color": "#C81E19",
             "awayColor": "#14643C",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
@@ -7669,7 +7668,7 @@
             "imageVersion": 2,
             "color": "#373785",
             "awayColor": "#F0DC3A",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
@@ -7708,7 +7707,7 @@
             "imageVersion": 1,
             "color": "#4A4F99",
             "awayColor": "#E31927",
-            "mainCompetitionId": 621,
+            "mainCompetitionId": 0,
             "hasSquad": true,
             "hasTransfers": false,
             "competitorNum": 0,
