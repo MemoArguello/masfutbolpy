@@ -1,10 +1,10 @@
 {
-    "lastUpdateId": 5380776036,
+    "lastUpdateId": 5380980125,
     "requestedUpdateId": -1,
-    "ttl": 300,
+    "ttl": 5,
     "paging": {
         "previousPage": "\/web\/games\/?langId=14&timezoneId=92&userCountryId=108&apptype=5&competitions=621&games=1&aftergame=4474938&direction=-1&withmainodds=true",
-        "nextPage": "\/web\/games\/?langId=14&timezoneId=92&userCountryId=108&apptype=5&competitions=621&games=1&aftergame=4474923&direction=1&withmainodds=true"
+        "nextPage": "\/web\/games\/?langId=14&timezoneId=92&userCountryId=108&apptype=5&competitions=621&games=1&aftergame=4474924&direction=1&withmainodds=true"
     },
     "summary": [],
     "sports": [
@@ -21,7 +21,7 @@
             "id": 108,
             "name": "Paraguay",
             "totalGames": 14,
-            "liveGames": 0,
+            "liveGames": 1,
             "nameForURL": "paraguay",
             "imageVersion": 1
         }
@@ -33,12 +33,12 @@
             "sportId": 1,
             "name": "Copa de Primera",
             "hasStandings": true,
-            "hasLiveStandings": false,
+            "hasLiveStandings": true,
             "hasStandingsGroups": false,
             "hasBrackets": false,
             "nameForURL": "copa-de-primera",
             "totalGames": 14,
-            "liveGames": 0,
+            "liveGames": 1,
             "popularityRank": 1242911,
             "hasActiveGames": true,
             "imageVersion": 1,
