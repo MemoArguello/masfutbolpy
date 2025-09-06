@@ -45,9 +45,36 @@ if ($resultadosData) {
 }
 
 // Guardar noticias
-if ($noticiasData) {
-    file_put_contents("noticias.json", json_encode($noticiasData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-    echo "noticias.json guardado correctamente.\n";
+if ($noticiasData && isset($noticiasData['news'])) {
+
+    $noticiasData['news'] = array_slice($noticiasData['news'], -13);
+    // 1. Agregar campo descripcion vacío
+    foreach ($noticiasData['news'] as &$noticia) {
+        $noticia['descripcion'] = ""; 
+    }
+
+    // 2. Guardar en JSON
+    file_put_contents(
+        "noticias.json", 
+        json_encode($noticiasData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
+    );
+
+    // Crear CSV en UTF-8 con BOM
+    $csvFile = fopen("noticias.csv", "w");
+    fwrite($csvFile, "\xEF\xBB\xBF"); // BOM UTF-8
+    
+    // Cabecera
+    fputcsv($csvFile, ["title"]);
+
+    foreach ($noticiasData['news'] as $noticia) {
+        fputcsv($csvFile, [$noticia['title']]);
+    }
+
+    fclose($csvFile);
+
+    echo "✅ noticias.json y noticias.csv guardados correctamente.\n";
+} else {
+    echo "❌ No se pudieron obtener noticias.\n";
 }
 
 // Guardar noticias albirroja
