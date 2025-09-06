@@ -59,7 +59,11 @@
           <div class="rd-navbar-panel">
             <!-- RD Navbar Toggle-->
             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-main"><span></span></button>
-
+            <!-- Logo visible solo en móviles -->
+  <!-- Logo SOLO visible en móviles -->
+  <a href="index.html" class="rd-navbar-brand mobile-logo">
+    <img src="images/logo.webp" alt="Logo" width="70" height="auto">
+  </a>
             <!-- RD Navbar Panel-->
             <div class="rd-navbar-panel-inner container">
               <div class="rd-navbar-collapse rd-navbar-panel-item rd-navbar-panel-item-left">
@@ -102,6 +106,7 @@
                 <div class="rd-navbar-brand"><a class="" href=""><img class="brand-logo " src="images/logo.webp" alt=""
                       width="95" height="126" /></a>
                 </div>
+
                 <!-- RD Navbar List-->
                 <ul class="rd-navbar-list">
                   <li class="rd-navbar-list-item"><a class="rd-navbar-list-link" href="#"><img
@@ -133,14 +138,11 @@
                 <ul class="rd-navbar-nav">
                   <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Inicio</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="envivotg.html">Fútbol Local</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="envivotg.html">Fútbol Local</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="">Fútbol Internacional</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="">Fútbol Internacional</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link"
-                      href="">Otros Deportes</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="">Otros Deportes</a>
                   </li>
                 </ul>
                 <div class="rd-navbar-main-element">
@@ -208,28 +210,28 @@
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  // Obtener ID de la noticia actual desde la URL
-  const params2 = new URLSearchParams(window.location.search);
-  const noticiaId = parseInt(params2.get("id"));
+  <script>
+    // Obtener ID de la noticia actual desde la URL
+    const params2 = new URLSearchParams(window.location.search);
+    const noticiaId = parseInt(params2.get("id"));
 
-  fetch("noticias.json")
-    .then(res => res.json())
-    .then(data => {
-      // Ordenar por fecha descendente
-      const noticiasOrdenadas = data.news.sort(
-        (a, b) => new Date(b.publishDate) - new Date(a.publishDate)
-      );
+    fetch("noticias.json")
+      .then(res => res.json())
+      .then(data => {
+        // Ordenar por fecha descendente
+        const noticiasOrdenadas = data.news.sort(
+          (a, b) => new Date(b.publishDate) - new Date(a.publishDate)
+        );
 
-      // Filtrar para que no muestre la noticia actual
-      const ultimasNoticias = noticiasOrdenadas
-        .filter(n => n.id !== noticiaId)
-        .slice(0, 5); // máximo 5 noticias
+        // Filtrar para que no muestre la noticia actual
+        const ultimasNoticias = noticiasOrdenadas
+          .filter(n => n.id !== noticiaId)
+          .slice(0, 5); // máximo 5 noticias
 
-      const ultimas = document.getElementById("ultimas");
+        const ultimas = document.getElementById("ultimas");
 
-      ultimasNoticias.forEach(n => {
-        ultimas.innerHTML += `
+        ultimasNoticias.forEach(n => {
+          ultimas.innerHTML += `
           <article class="post-classic">
             <div class="post-classic-aside">
               <a class="post-classic-figure" href="noticia.html?id=${n.id}">
@@ -244,17 +246,17 @@
                 <span class="icon mdi mdi-clock"></span>
                 <time>
                   ${new Date(n.publishDate).toLocaleDateString("es-ES", {
-                    day: "numeric", month: "short"
-                  })}
+            day: "numeric", month: "short"
+          })}
                 </time>
               </div>
             </div>
           </article>
         `;
-      });
-    })
-    .catch(err => console.error("Error cargando noticias:", err));
-</script>
+        });
+      })
+      .catch(err => console.error("Error cargando noticias:", err));
+  </script>
 
 
   <script>

@@ -60,7 +60,10 @@
           <div class="rd-navbar-panel">
             <!-- RD Navbar Toggle-->
             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-main"><span></span></button>
-
+            <!-- Logo SOLO visible en móviles -->
+            <a href="index.html" class="rd-navbar-brand mobile-logo">
+              <img src="images/logo.webp" alt="Logo" width="200" height="auto">
+            </a>
             <!-- RD Navbar Panel-->
             <div class="rd-navbar-panel-inner container">
               <div class="rd-navbar-collapse rd-navbar-panel-item rd-navbar-panel-item-left">
@@ -513,7 +516,7 @@
       .then(data => {
         const tbody = document.getElementById("goleadores-body");
 
-        const goleadores = data.stats.athletesStats[0].rows.slice(0,12);
+        const goleadores = data.stats.athletesStats[0].rows.slice(0, 12);
 
         goleadores.forEach((jug, index) => {
           const fila = document.createElement("tr");
@@ -544,7 +547,7 @@
 
     const swiper = new Swiper('.swiper-container', {
       loop: false,
-      simulateTouch: true, 
+      simulateTouch: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,

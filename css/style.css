@@ -28,6 +28,24 @@ select,
 textarea {
 	outline: none;
 }
+/* Ocultar en escritorio */
+.rd-navbar-panel .mobile-logo {
+  display: none;
+}
+
+/* Mostrar solo en móviles (cuando ya aparece la hamburguesa) */
+@media (max-width: 991px) {
+  .rd-navbar-panel .mobile-logo {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rd-navbar-panel .mobile-logo img {
+    max-width: 100px;
+    height: auto;
+  }
+}
 
 label {
 	margin-bottom: 0;
@@ -16083,8 +16101,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
-	max-width: 300px;
-	max-height: 90px;
+	max-width: 200px;
 }
 
 .rd-navbar-fixed .brand {
