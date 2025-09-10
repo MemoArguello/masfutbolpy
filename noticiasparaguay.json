@@ -1,8 +1,17 @@
 {
     "news": [
         {
+            "id": 180399342,
+            "publishDate": "2025-09-10T15:39:00-03:00",
+            "sourceId": 2262,
+            "title": "Selección de Perú cerró una de sus peores Eliminatorias…¿de su historia?",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/GettyImages-2185823801-scaled-e1757451675257-1024x624.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/seleccion-de-peru-mundial-2026-puntos\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
             "id": 180386010,
-            "publishDate": "2025-09-10T09:32:00-03:00",
+            "publishDate": "2025-09-10T15:39:00-03:00",
             "sourceId": 2262,
             "title": "Cuotas del Perú vs Paraguay por Eliminatoria: ¿Quién es el favorito?",
             "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Peru-vs-Paraguay-Eliminatoria-2026-cuotas.jpg",
@@ -16,15 +25,6 @@
             "title": "Perú vs Paraguay: resultado en vivo y goles por Eliminatorias CONMEBOL",
             "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Peru-vs-Paraguay-en-vivo.jpg",
             "url": "https:\/\/www.365scores.com\/es\/news\/peru-vs-paraguay-resultado-goles-vivo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
-        },
-        {
-            "id": 180391823,
-            "publishDate": "2025-09-09T19:34:58-03:00",
-            "sourceId": 2262,
-            "title": "Oliver Sonne hoy: por qué no juega y quién lo reemplaza vs Paraguay",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/GettyImages-2187526804-1024x683.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/oliver-sonne-peru-vs-paraguay-no-juega\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
             "isMagazine": true
         }
     ],
