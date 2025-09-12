@@ -1,5 +1,5 @@
 {
-    "lastUpdateId": 5386512505,
+    "lastUpdateId": 5387484608,
     "requestedUpdateId": -1,
     "ttl": 300,
     "paging": {
@@ -20,7 +20,7 @@
         {
             "id": 108,
             "name": "Paraguay",
-            "totalGames": 11,
+            "totalGames": 13,
             "liveGames": 0,
             "nameForURL": "paraguay",
             "imageVersion": 1
@@ -37,7 +37,7 @@
             "hasStandingsGroups": false,
             "hasBrackets": false,
             "nameForURL": "copa-de-primera",
-            "totalGames": 11,
+            "totalGames": 13,
             "liveGames": 0,
             "popularityRank": 671126,
             "hasActiveGames": true,
