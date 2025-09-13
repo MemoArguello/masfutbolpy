@@ -8,6 +8,32 @@
                 "rows": [
                     {
                         "position": 0,
+                        "secondaryStatName": "Penaltis convertidos: 2",
+                        "entity": {
+                            "id": 106730,
+                            "name": "Elvio Vera",
+                            "shortName": "Vera",
+                            "nameForURL": "elvio-vera",
+                            "countryId": 108,
+                            "competitorId": 56588,
+                            "competitionId": 0,
+                            "positionName": "Segundo Delantero",
+                            "positionShortName": "Segundo Delantero",
+                            "imageVersion": 12
+                        },
+                        "stats": [
+                            {
+                                "typeId": 1,
+                                "value": "6"
+                            },
+                            {
+                                "typeId": 10,
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
                         "secondaryStatName": "Penaltis convertidos: 0",
                         "entity": {
                             "id": 202713,
@@ -72,32 +98,6 @@
                             "positionName": "Centro Delantero",
                             "positionShortName": "Centro Delantero",
                             "imageVersion": 11
-                        },
-                        "stats": [
-                            {
-                                "typeId": 1,
-                                "value": "5"
-                            },
-                            {
-                                "typeId": 10,
-                                "value": "1"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "secondaryStatName": "Penaltis convertidos: 1",
-                        "entity": {
-                            "id": 106730,
-                            "name": "Elvio Vera",
-                            "shortName": "Vera",
-                            "nameForURL": "elvio-vera",
-                            "countryId": 108,
-                            "competitorId": 56588,
-                            "competitionId": 0,
-                            "positionName": "Segundo Delantero",
-                            "positionShortName": "Segundo Delantero",
-                            "imageVersion": 12
                         },
                         "stats": [
                             {
@@ -567,27 +567,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 38646,
-                            "name": "Cecilio Domínguez",
-                            "shortName": "Dominguez",
-                            "nameForURL": "cecilio-dominguez",
-                            "countryId": 108,
-                            "competitorId": 1294,
-                            "competitionId": 0,
-                            "positionName": "Delantero Derecho",
-                            "positionShortName": "Delantero Derecho",
-                            "imageVersion": 29
-                        },
-                        "stats": [
-                            {
-                                "typeId": 2,
-                                "value": "3"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 43390,
                             "name": "Gabriel Gudiño",
                             "shortName": "Gudiño",
@@ -598,6 +577,27 @@
                             "positionName": "Mediocampista Derecho",
                             "positionShortName": "Medio Derecho",
                             "imageVersion": 14
+                        },
+                        "stats": [
+                            {
+                                "typeId": 2,
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 38646,
+                            "name": "Cecilio Domínguez",
+                            "shortName": "Dominguez",
+                            "nameForURL": "cecilio-dominguez",
+                            "countryId": 108,
+                            "competitorId": 1294,
+                            "competitionId": 0,
+                            "positionName": "Delantero Derecho",
+                            "positionShortName": "Delantero Derecho",
+                            "imageVersion": 29
                         },
                         "stats": [
                             {
@@ -714,27 +714,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 54028,
-                            "name": "Derlis Rodríguez",
-                            "shortName": "Rodríguez",
-                            "nameForURL": "derlis-rodriguez",
-                            "countryId": 108,
-                            "competitorId": 7739,
-                            "competitionId": 0,
-                            "positionName": "Centro Delantero",
-                            "positionShortName": "Centro Delantero",
-                            "imageVersion": 11
-                        },
-                        "stats": [
-                            {
-                                "typeId": 2,
-                                "value": "2"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 50763,
                             "name": "Fabián Franco",
                             "shortName": "Franco",
@@ -745,26 +724,6 @@
                             "positionName": "Defensa Central",
                             "positionShortName": "Defensa Central",
                             "imageVersion": 14
-                        },
-                        "stats": [
-                            {
-                                "typeId": 2,
-                                "value": "2"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 8803,
-                            "name": "Rodrigo Rojas",
-                            "nameForURL": "rodrigo-rojas",
-                            "countryId": 108,
-                            "competitorId": 56592,
-                            "competitionId": 0,
-                            "positionName": "Mediocampista Ofensivo",
-                            "positionShortName": "Mediocampista Ofensivo",
-                            "imageVersion": 12
                         },
                         "stats": [
                             {
@@ -797,16 +756,16 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 106730,
-                            "name": "Elvio Vera",
-                            "shortName": "Vera",
-                            "nameForURL": "elvio-vera",
+                            "id": 54028,
+                            "name": "Derlis Rodríguez",
+                            "shortName": "Rodríguez",
+                            "nameForURL": "derlis-rodriguez",
                             "countryId": 108,
-                            "competitorId": 56588,
+                            "competitorId": 7739,
                             "competitionId": 0,
-                            "positionName": "Segundo Delantero",
-                            "positionShortName": "Segundo Delantero",
-                            "imageVersion": 12
+                            "positionName": "Centro Delantero",
+                            "positionShortName": "Centro Delantero",
+                            "imageVersion": 11
                         },
                         "stats": [
                             {
@@ -860,16 +819,15 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 55423,
-                            "name": "Agustín Manzur",
-                            "shortName": "Manzur",
-                            "nameForURL": "agustin-manzur",
-                            "countryId": 226,
-                            "competitorId": 7739,
+                            "id": 8803,
+                            "name": "Rodrigo Rojas",
+                            "nameForURL": "rodrigo-rojas",
+                            "countryId": 108,
+                            "competitorId": 56592,
                             "competitionId": 0,
-                            "positionName": "Mediocampista Central",
-                            "positionShortName": "Mediocampista Central",
-                            "imageVersion": 15
+                            "positionName": "Mediocampista Ofensivo",
+                            "positionShortName": "Mediocampista Ofensivo",
+                            "imageVersion": 12
                         },
                         "stats": [
                             {
@@ -902,6 +860,27 @@
                     {
                         "position": 0,
                         "entity": {
+                            "id": 106730,
+                            "name": "Elvio Vera",
+                            "shortName": "Vera",
+                            "nameForURL": "elvio-vera",
+                            "countryId": 108,
+                            "competitorId": 56588,
+                            "competitionId": 0,
+                            "positionName": "Segundo Delantero",
+                            "positionShortName": "Segundo Delantero",
+                            "imageVersion": 12
+                        },
+                        "stats": [
+                            {
+                                "typeId": 2,
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
                             "id": 110224,
                             "name": "Teodoro Arce",
                             "shortName": "Arce",
@@ -912,6 +891,27 @@
                             "positionName": "Mediocampista Izquierdo",
                             "positionShortName": "Medio izquierdo",
                             "imageVersion": 7
+                        },
+                        "stats": [
+                            {
+                                "typeId": 2,
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 55423,
+                            "name": "Agustín Manzur",
+                            "shortName": "Manzur",
+                            "nameForURL": "agustin-manzur",
+                            "countryId": 226,
+                            "competitorId": 7739,
+                            "competitionId": 0,
+                            "positionName": "Mediocampista Central",
+                            "positionShortName": "Mediocampista Central",
+                            "imageVersion": 15
                         },
                         "stats": [
                             {
@@ -982,6 +982,27 @@
                     {
                         "position": 0,
                         "entity": {
+                            "id": 106730,
+                            "name": "Elvio Vera",
+                            "shortName": "Vera",
+                            "nameForURL": "elvio-vera",
+                            "countryId": 108,
+                            "competitorId": 56588,
+                            "competitionId": 0,
+                            "positionName": "Segundo Delantero",
+                            "positionShortName": "Segundo Delantero",
+                            "imageVersion": 12
+                        },
+                        "stats": [
+                            {
+                                "typeId": 61,
+                                "value": "8"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
                             "id": 15298,
                             "name": "Fernando Fernández",
                             "shortName": "Fernández",
@@ -1024,27 +1045,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 106730,
-                            "name": "Elvio Vera",
-                            "shortName": "Vera",
-                            "nameForURL": "elvio-vera",
-                            "countryId": 108,
-                            "competitorId": 56588,
-                            "competitionId": 0,
-                            "positionName": "Segundo Delantero",
-                            "positionShortName": "Segundo Delantero",
-                            "imageVersion": 12
-                        },
-                        "stats": [
-                            {
-                                "typeId": 61,
-                                "value": "7"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 202713,
                             "name": "Ivan Ramirez",
                             "shortName": "Ramirez",
@@ -1076,6 +1076,27 @@
                             "positionName": "Mediocampista Central",
                             "positionShortName": "Mediocampista Central",
                             "imageVersion": 8
+                        },
+                        "stats": [
+                            {
+                                "typeId": 61,
+                                "value": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 43390,
+                            "name": "Gabriel Gudiño",
+                            "shortName": "Gudiño",
+                            "nameForURL": "gabriel-gudino",
+                            "countryId": 10,
+                            "competitorId": 56592,
+                            "competitionId": 0,
+                            "positionName": "Mediocampista Derecho",
+                            "positionShortName": "Medio Derecho",
+                            "imageVersion": 14
                         },
                         "stats": [
                             {
@@ -1139,27 +1160,6 @@
                             "positionName": "Delantero Izquierdo",
                             "positionShortName": "Delantero Izquierdo",
                             "imageVersion": 24
-                        },
-                        "stats": [
-                            {
-                                "typeId": 61,
-                                "value": "5"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 43390,
-                            "name": "Gabriel Gudiño",
-                            "shortName": "Gudiño",
-                            "nameForURL": "gabriel-gudino",
-                            "countryId": 10,
-                            "competitorId": 56592,
-                            "competitionId": 0,
-                            "positionName": "Mediocampista Derecho",
-                            "positionShortName": "Medio Derecho",
-                            "imageVersion": 14
                         },
                         "stats": [
                             {
@@ -1433,7 +1433,7 @@
                         "stats": [
                             {
                                 "typeId": 36,
-                                "value": "7.8"
+                                "value": "7.7"
                             }
                         ]
                     },
@@ -1482,27 +1482,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 54028,
-                            "name": "Derlis Rodríguez",
-                            "shortName": "Rodríguez",
-                            "nameForURL": "derlis-rodriguez",
-                            "countryId": 108,
-                            "competitorId": 7739,
-                            "competitionId": 0,
-                            "positionName": "Centro Delantero",
-                            "positionShortName": "Centro Delantero",
-                            "imageVersion": 11
-                        },
-                        "stats": [
-                            {
-                                "typeId": 36,
-                                "value": "7.4"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 192642,
                             "name": "Mauro Coronel",
                             "shortName": "Coronel",
@@ -1519,6 +1498,48 @@
                             {
                                 "typeId": 36,
                                 "value": "7.4"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 106730,
+                            "name": "Elvio Vera",
+                            "shortName": "Vera",
+                            "nameForURL": "elvio-vera",
+                            "countryId": 108,
+                            "competitorId": 56588,
+                            "competitionId": 0,
+                            "positionName": "Segundo Delantero",
+                            "positionShortName": "Segundo Delantero",
+                            "imageVersion": 12
+                        },
+                        "stats": [
+                            {
+                                "typeId": 36,
+                                "value": "7.3"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 54028,
+                            "name": "Derlis Rodríguez",
+                            "shortName": "Rodríguez",
+                            "nameForURL": "derlis-rodriguez",
+                            "countryId": 108,
+                            "competitorId": 7739,
+                            "competitionId": 0,
+                            "positionName": "Centro Delantero",
+                            "positionShortName": "Centro Delantero",
+                            "imageVersion": 11
+                        },
+                        "stats": [
+                            {
+                                "typeId": 36,
+                                "value": "7.3"
                             }
                         ]
                     },
@@ -1556,27 +1577,6 @@
                             "positionName": "Defensa Central",
                             "positionShortName": "Defensa Central",
                             "imageVersion": 9
-                        },
-                        "stats": [
-                            {
-                                "typeId": 36,
-                                "value": "7.3"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 65441,
-                            "name": "Jhon Sánchez",
-                            "shortName": "Sánchez",
-                            "nameForURL": "jhon-sanchez",
-                            "countryId": 51,
-                            "competitorId": 7739,
-                            "competitionId": 0,
-                            "positionName": "Delantero Derecho",
-                            "positionShortName": "Delantero Derecho",
-                            "imageVersion": 10
                         },
                         "stats": [
                             {
@@ -1651,27 +1651,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 106730,
-                            "name": "Elvio Vera",
-                            "shortName": "Vera",
-                            "nameForURL": "elvio-vera",
-                            "countryId": 108,
-                            "competitorId": 56588,
-                            "competitionId": 0,
-                            "positionName": "Segundo Delantero",
-                            "positionShortName": "Segundo Delantero",
-                            "imageVersion": 12
-                        },
-                        "stats": [
-                            {
-                                "typeId": 36,
-                                "value": "7.2"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 202713,
                             "name": "Ivan Ramirez",
                             "shortName": "Ramirez",
@@ -1703,6 +1682,27 @@
                             "positionName": "Defensa Lateral Derecho",
                             "positionShortName": "Defensa Lateral Derecho",
                             "imageVersion": 13
+                        },
+                        "stats": [
+                            {
+                                "typeId": 36,
+                                "value": "7.2"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 65441,
+                            "name": "Jhon Sánchez",
+                            "shortName": "Sánchez",
+                            "nameForURL": "jhon-sanchez",
+                            "countryId": 51,
+                            "competitorId": 7739,
+                            "competitionId": 0,
+                            "positionName": "Delantero Derecho",
+                            "positionShortName": "Delantero Derecho",
+                            "imageVersion": 10
                         },
                         "stats": [
                             {
@@ -1916,6 +1916,27 @@
                     {
                         "position": 0,
                         "entity": {
+                            "id": 106730,
+                            "name": "Elvio Vera",
+                            "shortName": "Vera",
+                            "nameForURL": "elvio-vera",
+                            "countryId": 108,
+                            "competitorId": 56588,
+                            "competitionId": 0,
+                            "positionName": "Segundo Delantero",
+                            "positionShortName": "Segundo Delantero",
+                            "imageVersion": 12
+                        },
+                        "stats": [
+                            {
+                                "typeId": 10,
+                                "value": "2\/2"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
                             "id": 140501,
                             "name": "Fernando Caceres",
                             "shortName": "Caceres",
@@ -2052,27 +2073,6 @@
                             "positionName": "Centro Delantero",
                             "positionShortName": "Centro Delantero",
                             "imageVersion": 11
-                        },
-                        "stats": [
-                            {
-                                "typeId": 10,
-                                "value": "1\/1"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 106730,
-                            "name": "Elvio Vera",
-                            "shortName": "Vera",
-                            "nameForURL": "elvio-vera",
-                            "countryId": 108,
-                            "competitorId": 56588,
-                            "competitionId": 0,
-                            "positionName": "Segundo Delantero",
-                            "positionShortName": "Segundo Delantero",
-                            "imageVersion": 12
                         },
                         "stats": [
                             {
@@ -2584,26 +2584,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 106590,
-                            "name": "Oscar Romero",
-                            "nameForURL": "oscar-romero",
-                            "countryId": 108,
-                            "competitorId": 14642,
-                            "competitionId": 0,
-                            "positionName": "Mediocampista Ofensivo",
-                            "positionShortName": "Mediocampista Ofensivo",
-                            "imageVersion": 8
-                        },
-                        "stats": [
-                            {
-                                "typeId": 38,
-                                "value": "1"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 140504,
                             "name": "René Rodríguez",
                             "shortName": "Rodríguez",
@@ -2698,6 +2678,27 @@
                             "positionName": "Mediocampista Central",
                             "positionShortName": "Mediocampista Central",
                             "imageVersion": 5
+                        },
+                        "stats": [
+                            {
+                                "typeId": 38,
+                                "value": "0.8"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 15283,
+                            "name": "Luis De La Cruz",
+                            "shortName": "de La Cruz",
+                            "nameForURL": "luis-de-la-cruz",
+                            "countryId": 108,
+                            "competitorId": 14640,
+                            "competitionId": 0,
+                            "positionName": "Mediocampista Derecho",
+                            "positionShortName": "Medio Derecho",
+                            "imageVersion": 12
                         },
                         "stats": [
                             {
@@ -3039,27 +3040,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 122634,
-                            "name": "Thiago Servín",
-                            "shortName": "Servín",
-                            "nameForURL": "thiago-servin",
-                            "countryId": 108,
-                            "competitorId": 7739,
-                            "competitionId": 0,
-                            "positionName": "Defensa Lateral Izquierdo",
-                            "positionShortName": "Defensa Lateral Izquierdo",
-                            "imageVersion": 9
-                        },
-                        "stats": [
-                            {
-                                "typeId": 63,
-                                "value": "1.8"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 102855,
                             "name": "Lucas Monzon",
                             "shortName": "Monzon",
@@ -3102,16 +3082,37 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 52708,
-                            "name": "Miller Mareco",
-                            "shortName": "Mareco",
-                            "nameForURL": "miller-mareco",
+                            "id": 122634,
+                            "name": "Thiago Servín",
+                            "shortName": "Servín",
+                            "nameForURL": "thiago-servin",
                             "countryId": 108,
-                            "competitorId": 8777,
+                            "competitorId": 7739,
                             "competitionId": 0,
-                            "positionName": "Defensa Central",
-                            "positionShortName": "Defensa Central",
-                            "imageVersion": 4
+                            "positionName": "Defensa Lateral Izquierdo",
+                            "positionShortName": "Defensa Lateral Izquierdo",
+                            "imageVersion": 9
+                        },
+                        "stats": [
+                            {
+                                "typeId": 63,
+                                "value": "1.7"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 120844,
+                            "name": "Alcides Benítez",
+                            "shortName": "Benítez",
+                            "nameForURL": "alcides-benitez",
+                            "countryId": 108,
+                            "competitorId": 7739,
+                            "competitionId": 0,
+                            "positionName": "Mediocampista Central",
+                            "positionShortName": "Mediocampista Central",
+                            "imageVersion": 5
                         },
                         "stats": [
                             {
@@ -3123,16 +3124,16 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 141516,
-                            "name": "José Espínola",
-                            "shortName": "Espínola",
-                            "nameForURL": "jose-espinola",
+                            "id": 52708,
+                            "name": "Miller Mareco",
+                            "shortName": "Mareco",
+                            "nameForURL": "miller-mareco",
                             "countryId": 108,
-                            "competitorId": 53209,
+                            "competitorId": 8777,
                             "competitionId": 0,
-                            "positionName": "Mediocampista Central",
-                            "positionShortName": "Mediocampista Central",
-                            "imageVersion": 5
+                            "positionName": "Defensa Central",
+                            "positionShortName": "Defensa Central",
+                            "imageVersion": 4
                         },
                         "stats": [
                             {
@@ -3611,6 +3612,27 @@
                     {
                         "position": 0,
                         "entity": {
+                            "id": 55423,
+                            "name": "Agustín Manzur",
+                            "shortName": "Manzur",
+                            "nameForURL": "agustin-manzur",
+                            "countryId": 226,
+                            "competitorId": 7739,
+                            "competitionId": 0,
+                            "positionName": "Mediocampista Central",
+                            "positionShortName": "Mediocampista Central",
+                            "imageVersion": 15
+                        },
+                        "stats": [
+                            {
+                                "typeId": 3,
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
                             "id": 202713,
                             "name": "Ivan Ramirez",
                             "shortName": "Ramirez",
@@ -3663,27 +3685,6 @@
                             "positionName": "Mediocampista Central",
                             "positionShortName": "Mediocampista Central",
                             "imageVersion": 7
-                        },
-                        "stats": [
-                            {
-                                "typeId": 3,
-                                "value": "4"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 55423,
-                            "name": "Agustín Manzur",
-                            "shortName": "Manzur",
-                            "nameForURL": "agustin-manzur",
-                            "countryId": 226,
-                            "competitorId": 7739,
-                            "competitionId": 0,
-                            "positionName": "Mediocampista Central",
-                            "positionShortName": "Mediocampista Central",
-                            "imageVersion": 15
                         },
                         "stats": [
                             {
@@ -3769,6 +3770,27 @@
                             "positionName": "Defensa Central",
                             "positionShortName": "Defensa Central",
                             "imageVersion": 14
+                        },
+                        "stats": [
+                            {
+                                "typeId": 3,
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 60886,
+                            "name": "Paul Charpentier",
+                            "shortName": "Charpentier",
+                            "nameForURL": "paul-charpentier",
+                            "countryId": 10,
+                            "competitorId": 56592,
+                            "competitionId": 0,
+                            "positionName": "Centro Delantero",
+                            "positionShortName": "Centro Delantero",
+                            "imageVersion": 19
                         },
                         "stats": [
                             {
@@ -3984,27 +4006,6 @@
                                 "value": "3"
                             }
                         ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 61241,
-                            "name": "Clementino González",
-                            "shortName": "González",
-                            "nameForURL": "clementino-gonzalez",
-                            "countryId": 108,
-                            "competitorId": 8777,
-                            "competitionId": 0,
-                            "positionName": "Centro Delantero",
-                            "positionShortName": "Centro Delantero",
-                            "imageVersion": 4
-                        },
-                        "stats": [
-                            {
-                                "typeId": 3,
-                                "value": "3"
-                            }
-                        ]
                     }
                 ],
                 "statsTypes": [
@@ -4093,6 +4094,27 @@
                             "positionName": "Portero",
                             "positionShortName": "Portero",
                             "imageVersion": 6
+                        },
+                        "stats": [
+                            {
+                                "typeId": 12,
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 141726,
+                            "name": "Ángel Martínez",
+                            "shortName": "Martínez",
+                            "nameForURL": "angel-martinez",
+                            "countryId": 108,
+                            "competitorId": 14642,
+                            "competitionId": 0,
+                            "positionName": "Portero",
+                            "positionShortName": "Portero",
+                            "imageVersion": 5
                         },
                         "stats": [
                             {
@@ -4409,6 +4431,27 @@
                     {
                         "position": 0,
                         "entity": {
+                            "id": 141726,
+                            "name": "Ángel Martínez",
+                            "shortName": "Martínez",
+                            "nameForURL": "angel-martinez",
+                            "countryId": 108,
+                            "competitorId": 14642,
+                            "competitionId": 0,
+                            "positionName": "Portero",
+                            "positionShortName": "Portero",
+                            "imageVersion": 5
+                        },
+                        "stats": [
+                            {
+                                "typeId": 66,
+                                "value": "1.4"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
                             "id": 56640,
                             "name": "Gonzalo Falcón",
                             "shortName": "Falcón",
@@ -4430,27 +4473,6 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 141726,
-                            "name": "Ángel Martínez",
-                            "shortName": "Martínez",
-                            "nameForURL": "angel-martinez",
-                            "countryId": 108,
-                            "competitorId": 14642,
-                            "competitionId": 0,
-                            "positionName": "Portero",
-                            "positionShortName": "Portero",
-                            "imageVersion": 5
-                        },
-                        "stats": [
-                            {
-                                "typeId": 66,
-                                "value": "1.5"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
                             "id": 56346,
                             "name": "Miguel Martínez",
                             "shortName": "Martínez",
@@ -4466,27 +4488,6 @@
                             {
                                 "typeId": 66,
                                 "value": "1.5"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 196317,
-                            "name": "Tomas Canteros",
-                            "shortName": "Canteros",
-                            "nameForURL": "tomas-canteros",
-                            "countryId": 10,
-                            "competitorId": 56592,
-                            "competitionId": 0,
-                            "positionName": "Portero",
-                            "positionShortName": "Portero",
-                            "imageVersion": 1
-                        },
-                        "stats": [
-                            {
-                                "typeId": 66,
-                                "value": "1.6"
                             }
                         ]
                     },
@@ -4529,6 +4530,27 @@
                             {
                                 "typeId": 66,
                                 "value": "1.7"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 196317,
+                            "name": "Tomas Canteros",
+                            "shortName": "Canteros",
+                            "nameForURL": "tomas-canteros",
+                            "countryId": 10,
+                            "competitorId": 56592,
+                            "competitionId": 0,
+                            "positionName": "Portero",
+                            "positionShortName": "Portero",
+                            "imageVersion": 1
+                        },
+                        "stats": [
+                            {
+                                "typeId": 66,
+                                "value": "1.8"
                             }
                         ]
                     }
@@ -4604,7 +4626,7 @@
                         "stats": [
                             {
                                 "typeId": 67,
-                                "value": "3.9"
+                                "value": "3.8"
                             }
                         ]
                     },
@@ -4632,15 +4654,16 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 110965,
-                            "name": "Luis Guillén",
-                            "nameForURL": "luis-guillen",
-                            "countryId": 108,
-                            "competitorId": 8777,
+                            "id": 196317,
+                            "name": "Tomas Canteros",
+                            "shortName": "Canteros",
+                            "nameForURL": "tomas-canteros",
+                            "countryId": 10,
+                            "competitorId": 56592,
                             "competitionId": 0,
                             "positionName": "Portero",
                             "positionShortName": "Portero",
-                            "imageVersion": 5
+                            "imageVersion": 1
                         },
                         "stats": [
                             {
@@ -4652,16 +4675,15 @@
                     {
                         "position": 0,
                         "entity": {
-                            "id": 196317,
-                            "name": "Tomas Canteros",
-                            "shortName": "Canteros",
-                            "nameForURL": "tomas-canteros",
-                            "countryId": 10,
-                            "competitorId": 56592,
+                            "id": 110965,
+                            "name": "Luis Guillén",
+                            "nameForURL": "luis-guillen",
+                            "countryId": 108,
+                            "competitorId": 8777,
                             "competitionId": 0,
                             "positionName": "Portero",
                             "positionShortName": "Portero",
-                            "imageVersion": 1
+                            "imageVersion": 5
                         },
                         "stats": [
                             {
@@ -4710,27 +4732,6 @@
                             {
                                 "typeId": 67,
                                 "value": "3"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 106930,
-                            "name": "Aldo Pérez",
-                            "shortName": "A. Pérez",
-                            "nameForURL": "aldo-perez",
-                            "countryId": 108,
-                            "competitorId": 7739,
-                            "competitionId": 0,
-                            "positionName": "Portero",
-                            "positionShortName": "Portero",
-                            "imageVersion": 4
-                        },
-                        "stats": [
-                            {
-                                "typeId": 67,
-                                "value": "2.9"
                             }
                         ]
                     },
@@ -4794,6 +4795,27 @@
                             {
                                 "typeId": 67,
                                 "value": "2.8"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
+                            "id": 106930,
+                            "name": "Aldo Pérez",
+                            "shortName": "A. Pérez",
+                            "nameForURL": "aldo-perez",
+                            "countryId": 108,
+                            "competitorId": 7739,
+                            "competitionId": 0,
+                            "positionName": "Portero",
+                            "positionShortName": "Portero",
+                            "imageVersion": 4
+                        },
+                        "stats": [
+                            {
+                                "typeId": 67,
+                                "value": "2.7"
                             }
                         ]
                     },
@@ -4883,6 +4905,27 @@
                     {
                         "position": 0,
                         "entity": {
+                            "id": 141726,
+                            "name": "Ángel Martínez",
+                            "shortName": "Martínez",
+                            "nameForURL": "angel-martinez",
+                            "countryId": 108,
+                            "competitorId": 14642,
+                            "competitionId": 0,
+                            "positionName": "Portero",
+                            "positionShortName": "Portero",
+                            "imageVersion": 5
+                        },
+                        "stats": [
+                            {
+                                "typeId": 67,
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 0,
+                        "entity": {
                             "id": 10789,
                             "name": "Carlos Servin",
                             "shortName": "Servin",
@@ -4898,27 +4941,6 @@
                             {
                                 "typeId": 67,
                                 "value": "2"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 0,
-                        "entity": {
-                            "id": 141726,
-                            "name": "Ángel Martínez",
-                            "shortName": "Martínez",
-                            "nameForURL": "angel-martinez",
-                            "countryId": 108,
-                            "competitorId": 14642,
-                            "competitionId": 0,
-                            "positionName": "Portero",
-                            "positionShortName": "Portero",
-                            "imageVersion": 5
-                        },
-                        "stats": [
-                            {
-                                "typeId": 67,
-                                "value": "1.9"
                             }
                         ]
                     },
@@ -5202,7 +5224,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "1.22"
+                    "value": "1.23"
                 },
                 "rows": [
                     {
@@ -5219,7 +5241,7 @@
                         "stats": [
                             {
                                 "typeId": 3,
-                                "value": "2.64"
+                                "value": "2.42"
                             },
                             {
                                 "typeId": 2,
@@ -5340,7 +5362,7 @@
                     },
                     {
                         "position": 7,
-                        "secondaryStatName": "Total de goles: 13",
+                        "secondaryStatName": "Total de goles: 14",
                         "entity": {
                             "id": 14642,
                             "name": "2 de Mayo",
@@ -5352,16 +5374,38 @@
                         "stats": [
                             {
                                 "typeId": 3,
-                                "value": "1.18"
+                                "value": "1.17"
                             },
                             {
                                 "typeId": 2,
-                                "value": "13"
+                                "value": "14"
                             }
                         ]
                     },
                     {
                         "position": 8,
+                        "secondaryStatName": "Total de goles: 12",
+                        "entity": {
+                            "id": 56592,
+                            "name": "Atlético Tembetary",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 56592,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 3,
+                                "value": "1.09"
+                            },
+                            {
+                                "typeId": 2,
+                                "value": "12"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 9,
                         "secondaryStatName": "Total de goles: 12",
                         "entity": {
                             "id": 1280,
@@ -5383,7 +5427,29 @@
                         ]
                     },
                     {
-                        "position": 9,
+                        "position": 10,
+                        "secondaryStatName": "Total de goles: 13",
+                        "entity": {
+                            "id": 56588,
+                            "name": "Sportivo Ameliano",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 56588,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 3,
+                                "value": "1.08"
+                            },
+                            {
+                                "typeId": 2,
+                                "value": "13"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 11,
                         "secondaryStatName": "Total de goles: 11",
                         "entity": {
                             "id": 1286,
@@ -5401,50 +5467,6 @@
                             {
                                 "typeId": 2,
                                 "value": "11"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 10,
-                        "secondaryStatName": "Total de goles: 10",
-                        "entity": {
-                            "id": 56592,
-                            "name": "Atlético Tembetary",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 56592,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 3,
-                                "value": "1"
-                            },
-                            {
-                                "typeId": 2,
-                                "value": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 11,
-                        "secondaryStatName": "Total de goles: 10",
-                        "entity": {
-                            "id": 56588,
-                            "name": "Sportivo Ameliano",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 56588,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 3,
-                                "value": "0.91"
-                            },
-                            {
-                                "typeId": 2,
-                                "value": "10"
                             }
                         ]
                     },
@@ -5488,7 +5510,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "1.22"
+                    "value": "1.23"
                 },
                 "rows": [
                     {
@@ -5537,7 +5559,7 @@
                     },
                     {
                         "position": 3,
-                        "secondaryStatName": "Total de goles recibidos: 11",
+                        "secondaryStatName": "Total de goles recibidos: 12",
                         "entity": {
                             "id": 7739,
                             "name": "Club Guaraní",
@@ -5553,7 +5575,7 @@
                             },
                             {
                                 "typeId": 4,
-                                "value": "11"
+                                "value": "12"
                             }
                         ]
                     },
@@ -5648,6 +5670,28 @@
                     },
                     {
                         "position": 8,
+                        "secondaryStatName": "Total de goles recibidos: 17",
+                        "entity": {
+                            "id": 14642,
+                            "name": "2 de Mayo",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 14642,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 5,
+                                "value": "1.42"
+                            },
+                            {
+                                "typeId": 4,
+                                "value": "17"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 9,
                         "secondaryStatName": "Total de goles recibidos: 16",
                         "entity": {
                             "id": 53209,
@@ -5665,28 +5709,6 @@
                             {
                                 "typeId": 4,
                                 "value": "16"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 9,
-                        "secondaryStatName": "Total de goles recibidos: 17",
-                        "entity": {
-                            "id": 14642,
-                            "name": "2 de Mayo",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 14642,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 5,
-                                "value": "1.54"
-                            },
-                            {
-                                "typeId": 4,
-                                "value": "17"
                             }
                         ]
                     },
@@ -5714,7 +5736,7 @@
                     },
                     {
                         "position": 11,
-                        "secondaryStatName": "Total de goles recibidos: 19",
+                        "secondaryStatName": "Total de goles recibidos: 21",
                         "entity": {
                             "id": 56588,
                             "name": "Sportivo Ameliano",
@@ -5726,17 +5748,17 @@
                         "stats": [
                             {
                                 "typeId": 5,
-                                "value": "1.73"
+                                "value": "1.75"
                             },
                             {
                                 "typeId": 4,
-                                "value": "19"
+                                "value": "21"
                             }
                         ]
                     },
                     {
                         "position": 12,
-                        "secondaryStatName": "Total de goles recibidos: 19",
+                        "secondaryStatName": "Total de goles recibidos: 22",
                         "entity": {
                             "id": 56592,
                             "name": "Atlético Tembetary",
@@ -5748,11 +5770,11 @@
                         "stats": [
                             {
                                 "typeId": 5,
-                                "value": "1.9"
+                                "value": "2"
                             },
                             {
                                 "typeId": 4,
-                                "value": "19"
+                                "value": "22"
                             }
                         ]
                     }
@@ -5799,28 +5821,6 @@
                         "position": 2,
                         "secondaryStatName": "Partidos jugados: 11",
                         "entity": {
-                            "id": 7739,
-                            "name": "Club Guaraní",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 7739,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 6,
-                                "value": "5"
-                            },
-                            {
-                                "typeId": 1,
-                                "value": "11"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 3,
-                        "secondaryStatName": "Partidos jugados: 11",
-                        "entity": {
                             "id": 8777,
                             "name": "General Caballero JLM",
                             "countryId": 108,
@@ -5840,7 +5840,7 @@
                         ]
                     },
                     {
-                        "position": 4,
+                        "position": 3,
                         "secondaryStatName": "Partidos jugados: 11",
                         "entity": {
                             "id": 1286,
@@ -5862,7 +5862,7 @@
                         ]
                     },
                     {
-                        "position": 5,
+                        "position": 4,
                         "secondaryStatName": "Partidos jugados: 11",
                         "entity": {
                             "id": 8778,
@@ -5885,7 +5885,7 @@
                         ]
                     },
                     {
-                        "position": 6,
+                        "position": 5,
                         "secondaryStatName": "Partidos jugados: 11",
                         "entity": {
                             "id": 14640,
@@ -5903,6 +5903,28 @@
                             {
                                 "typeId": 1,
                                 "value": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 6,
+                        "secondaryStatName": "Partidos jugados: 12",
+                        "entity": {
+                            "id": 7739,
+                            "name": "Club Guaraní",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 7739,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 6,
+                                "value": "5"
+                            },
+                            {
+                                "typeId": 1,
+                                "value": "12"
                             }
                         ]
                     },
@@ -5974,7 +5996,7 @@
                     },
                     {
                         "position": 10,
-                        "secondaryStatName": "Partidos jugados: 11",
+                        "secondaryStatName": "Partidos jugados: 12",
                         "entity": {
                             "id": 14642,
                             "name": "2 de Mayo",
@@ -5986,17 +6008,17 @@
                         "stats": [
                             {
                                 "typeId": 6,
-                                "value": "2"
+                                "value": "3"
                             },
                             {
                                 "typeId": 1,
-                                "value": "11"
+                                "value": "12"
                             }
                         ]
                     },
                     {
                         "position": 11,
-                        "secondaryStatName": "Partidos jugados: 11",
+                        "secondaryStatName": "Partidos jugados: 12",
                         "entity": {
                             "id": 56588,
                             "name": "Sportivo Ameliano",
@@ -6012,13 +6034,13 @@
                             },
                             {
                                 "typeId": 1,
-                                "value": "11"
+                                "value": "12"
                             }
                         ]
                     },
                     {
                         "position": 12,
-                        "secondaryStatName": "Partidos jugados: 10",
+                        "secondaryStatName": "Partidos jugados: 11",
                         "entity": {
                             "id": 56592,
                             "name": "Atlético Tembetary",
@@ -6034,7 +6056,7 @@
                             },
                             {
                                 "typeId": 1,
-                                "value": "10"
+                                "value": "11"
                             }
                         ]
                     }
@@ -6123,7 +6145,7 @@
                     },
                     {
                         "position": 4,
-                        "secondaryStatName": "Partidos jugados: 11",
+                        "secondaryStatName": "Partidos jugados: 12",
                         "entity": {
                             "id": 14642,
                             "name": "2 de Mayo",
@@ -6135,17 +6157,17 @@
                         "stats": [
                             {
                                 "typeId": 17,
-                                "value": "56%"
+                                "value": "55%"
                             },
                             {
                                 "typeId": 1,
-                                "value": "11"
+                                "value": "12"
                             }
                         ]
                     },
                     {
                         "position": 5,
-                        "secondaryStatName": "Partidos jugados: 11",
+                        "secondaryStatName": "Partidos jugados: 12",
                         "entity": {
                             "id": 7739,
                             "name": "Club Guaraní",
@@ -6161,7 +6183,7 @@
                             },
                             {
                                 "typeId": 1,
-                                "value": "11"
+                                "value": "12"
                             }
                         ]
                     },
@@ -6278,7 +6300,7 @@
                     },
                     {
                         "position": 11,
-                        "secondaryStatName": "Partidos jugados: 11",
+                        "secondaryStatName": "Partidos jugados: 12",
                         "entity": {
                             "id": 56588,
                             "name": "Sportivo Ameliano",
@@ -6294,13 +6316,13 @@
                             },
                             {
                                 "typeId": 1,
-                                "value": "11"
+                                "value": "12"
                             }
                         ]
                     },
                     {
                         "position": 12,
-                        "secondaryStatName": "Partidos jugados: 10",
+                        "secondaryStatName": "Partidos jugados: 11",
                         "entity": {
                             "id": 56592,
                             "name": "Atlético Tembetary",
@@ -6312,11 +6334,11 @@
                         "stats": [
                             {
                                 "typeId": 17,
-                                "value": "41%"
+                                "value": "42%"
                             },
                             {
                                 "typeId": 1,
-                                "value": "10"
+                                "value": "11"
                             }
                         ]
                     }
@@ -6338,7 +6360,7 @@
                 "competitionId": 621,
                 "averageStat": {
                     "text": "Promedio por equipo",
-                    "value": "4.41"
+                    "value": "4.39"
                 },
                 "rows": [
                     {
@@ -6453,7 +6475,7 @@
                     },
                     {
                         "position": 6,
-                        "secondaryStatName": "Corners totales: 53",
+                        "secondaryStatName": "Corners totales: 54",
                         "entity": {
                             "id": 14642,
                             "name": "2 de Mayo",
@@ -6465,38 +6487,16 @@
                         "stats": [
                             {
                                 "typeId": 19,
-                                "value": "4.82"
+                                "value": "4.5"
                             },
                             {
                                 "typeId": 18,
-                                "value": "53"
+                                "value": "54"
                             }
                         ]
                     },
                     {
                         "position": 7,
-                        "secondaryStatName": "Corners totales: 51",
-                        "entity": {
-                            "id": 7739,
-                            "name": "Club Guaraní",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 7739,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 19,
-                                "value": "4.64"
-                            },
-                            {
-                                "typeId": 18,
-                                "value": "51"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 8,
                         "secondaryStatName": "Corners totales: 49",
                         "entity": {
                             "id": 14640,
@@ -6514,6 +6514,28 @@
                             {
                                 "typeId": 18,
                                 "value": "49"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 8,
+                        "secondaryStatName": "Corners totales: 51",
+                        "entity": {
+                            "id": 7739,
+                            "name": "Club Guaraní",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 7739,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 19,
+                                "value": "4.25"
+                            },
+                            {
+                                "typeId": 18,
+                                "value": "51"
                             }
                         ]
                     },
@@ -6541,29 +6563,7 @@
                     },
                     {
                         "position": 10,
-                        "secondaryStatName": "Corners totales: 46",
-                        "entity": {
-                            "id": 56588,
-                            "name": "Sportivo Ameliano",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 56588,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 19,
-                                "value": "4.18"
-                            },
-                            {
-                                "typeId": 18,
-                                "value": "46"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 11,
-                        "secondaryStatName": "Corners totales: 41",
+                        "secondaryStatName": "Corners totales: 45",
                         "entity": {
                             "id": 56592,
                             "name": "Atlético Tembetary",
@@ -6575,11 +6575,33 @@
                         "stats": [
                             {
                                 "typeId": 19,
-                                "value": "4.1"
+                                "value": "4.09"
                             },
                             {
                                 "typeId": 18,
-                                "value": "41"
+                                "value": "45"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 11,
+                        "secondaryStatName": "Corners totales: 47",
+                        "entity": {
+                            "id": 56588,
+                            "name": "Sportivo Ameliano",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 56588,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 19,
+                                "value": "3.92"
+                            },
+                            {
+                                "typeId": 18,
+                                "value": "47"
                             }
                         ]
                     },
@@ -6625,7 +6647,7 @@
                 "rows": [
                     {
                         "position": 1,
-                        "secondaryStatName": "Total de goles: 13",
+                        "secondaryStatName": "Total de goles: 14",
                         "entity": {
                             "id": 14642,
                             "name": "2 de Mayo",
@@ -6641,7 +6663,7 @@
                             },
                             {
                                 "typeId": 2,
-                                "value": "13"
+                                "value": "14"
                             }
                         ]
                     },
@@ -6713,7 +6735,7 @@
                     },
                     {
                         "position": 5,
-                        "secondaryStatName": "Total de goles: 10",
+                        "secondaryStatName": "Total de goles: 12",
                         "entity": {
                             "id": 56592,
                             "name": "Atlético Tembetary",
@@ -6729,7 +6751,7 @@
                             },
                             {
                                 "typeId": 2,
-                                "value": "10"
+                                "value": "12"
                             }
                         ]
                     },
@@ -6801,7 +6823,7 @@
                     },
                     {
                         "position": 9,
-                        "secondaryStatName": "Total de goles: 10",
+                        "secondaryStatName": "Total de goles: 13",
                         "entity": {
                             "id": 56588,
                             "name": "Sportivo Ameliano",
@@ -6813,11 +6835,11 @@
                         "stats": [
                             {
                                 "typeId": 12,
-                                "value": "1"
+                                "value": "2"
                             },
                             {
                                 "typeId": 2,
-                                "value": "10"
+                                "value": "13"
                             }
                         ]
                     },
@@ -6867,7 +6889,7 @@
                 "rows": [
                     {
                         "position": 1,
-                        "secondaryStatName": "Tarjetas Amarillas: 23",
+                        "secondaryStatName": "Tarjetas Amarillas: 25",
                         "entity": {
                             "id": 56592,
                             "name": "Atlético Tembetary",
@@ -6883,13 +6905,13 @@
                             },
                             {
                                 "typeId": 8,
-                                "value": "23"
+                                "value": "25"
                             }
                         ]
                     },
                     {
                         "position": 2,
-                        "secondaryStatName": "Tarjetas Amarillas: 35",
+                        "secondaryStatName": "Tarjetas Amarillas: 37",
                         "entity": {
                             "id": 56588,
                             "name": "Sportivo Ameliano",
@@ -6905,7 +6927,7 @@
                             },
                             {
                                 "typeId": 8,
-                                "value": "35"
+                                "value": "37"
                             }
                         ]
                     },
@@ -7002,28 +7024,6 @@
                         "position": 7,
                         "secondaryStatName": "Tarjetas Amarillas: 26",
                         "entity": {
-                            "id": 14642,
-                            "name": "2 de Mayo",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 14642,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 10,
-                                "value": "2"
-                            },
-                            {
-                                "typeId": 8,
-                                "value": "26"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 8,
-                        "secondaryStatName": "Tarjetas Amarillas: 26",
-                        "entity": {
                             "id": 8548,
                             "name": "Olimpia",
                             "countryId": 108,
@@ -7039,6 +7039,28 @@
                             {
                                 "typeId": 8,
                                 "value": "26"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 8,
+                        "secondaryStatName": "Tarjetas Amarillas: 28",
+                        "entity": {
+                            "id": 14642,
+                            "name": "2 de Mayo",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 14642,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 10,
+                                "value": "2"
+                            },
+                            {
+                                "typeId": 8,
+                                "value": "28"
                             }
                         ]
                     },
@@ -7143,7 +7165,7 @@
                         "stats": [
                             {
                                 "typeId": 8,
-                                "value": "35"
+                                "value": "37"
                             },
                             {
                                 "typeId": 10,
@@ -7197,6 +7219,28 @@
                     },
                     {
                         "position": 4,
+                        "secondaryStatName": "Tarjetas Rojas: 0",
+                        "entity": {
+                            "id": 7739,
+                            "name": "Club Guaraní",
+                            "countryId": 108,
+                            "countryName": "Paraguay",
+                            "competitorId": 7739,
+                            "competitionId": 0
+                        },
+                        "stats": [
+                            {
+                                "typeId": 8,
+                                "value": "31"
+                            },
+                            {
+                                "typeId": 10,
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "position": 5,
                         "secondaryStatName": "Tarjetas Rojas: 1",
                         "entity": {
                             "id": 8777,
@@ -7218,7 +7262,7 @@
                         ]
                     },
                     {
-                        "position": 5,
+                        "position": 6,
                         "secondaryStatName": "Tarjetas Rojas: 3",
                         "entity": {
                             "id": 8778,
@@ -7241,7 +7285,7 @@
                         ]
                     },
                     {
-                        "position": 6,
+                        "position": 7,
                         "secondaryStatName": "Tarjetas Rojas: 1",
                         "entity": {
                             "id": 1286,
@@ -7263,7 +7307,7 @@
                         ]
                     },
                     {
-                        "position": 7,
+                        "position": 8,
                         "secondaryStatName": "Tarjetas Rojas: 2",
                         "entity": {
                             "id": 14642,
@@ -7276,33 +7320,11 @@
                         "stats": [
                             {
                                 "typeId": 8,
-                                "value": "26"
+                                "value": "28"
                             },
                             {
                                 "typeId": 10,
                                 "value": "2"
-                            }
-                        ]
-                    },
-                    {
-                        "position": 8,
-                        "secondaryStatName": "Tarjetas Rojas: 0",
-                        "entity": {
-                            "id": 7739,
-                            "name": "Club Guaraní",
-                            "countryId": 108,
-                            "countryName": "Paraguay",
-                            "competitorId": 7739,
-                            "competitionId": 0
-                        },
-                        "stats": [
-                            {
-                                "typeId": 8,
-                                "value": "26"
-                            },
-                            {
-                                "typeId": 10,
-                                "value": "0"
                             }
                         ]
                     },
@@ -7342,7 +7364,7 @@
                         "stats": [
                             {
                                 "typeId": 8,
-                                "value": "23"
+                                "value": "25"
                             },
                             {
                                 "typeId": 10,
@@ -7455,22 +7477,22 @@
             "isInternational": false
         },
         {
-            "id": 226,
-            "name": "Palestina",
-            "nameForURL": "palestine",
-            "sportTypes": [
-                1
-            ],
-            "imageVersion": 1,
-            "isInternational": false
-        },
-        {
             "id": 111,
             "name": "Uruguay",
             "nameForURL": "uruguay",
             "sportTypes": [
                 1,
                 2
+            ],
+            "imageVersion": 1,
+            "isInternational": false
+        },
+        {
+            "id": 226,
+            "name": "Palestina",
+            "nameForURL": "palestine",
+            "sportTypes": [
+                1
             ],
             "imageVersion": 1,
             "isInternational": false
@@ -7597,6 +7619,25 @@
     ],
     "competitors": [
         {
+            "id": 56588,
+            "countryId": 108,
+            "sportId": 1,
+            "name": "Sportivo Ameliano",
+            "symbolicName": "SPA",
+            "nameForURL": "sportivo-ameliano",
+            "type": 1,
+            "popularityRank": 77,
+            "imageVersion": 2,
+            "color": "#3E5CAB",
+            "awayColor": "#FFFFFF",
+            "mainCompetitionId": 621,
+            "hasSquad": true,
+            "hasTransfers": false,
+            "competitorNum": 0,
+            "hideOnSearch": false,
+            "hideOnCatalog": false
+        },
+        {
             "id": 7739,
             "countryId": 108,
             "sportId": 1,
@@ -7627,25 +7668,6 @@
             "imageVersion": 2,
             "color": "#7DAABF",
             "awayColor": "#CF261F",
-            "mainCompetitionId": 621,
-            "hasSquad": true,
-            "hasTransfers": false,
-            "competitorNum": 0,
-            "hideOnSearch": false,
-            "hideOnCatalog": false
-        },
-        {
-            "id": 56588,
-            "countryId": 108,
-            "sportId": 1,
-            "name": "Sportivo Ameliano",
-            "symbolicName": "SPA",
-            "nameForURL": "sportivo-ameliano",
-            "type": 1,
-            "popularityRank": 77,
-            "imageVersion": 2,
-            "color": "#3E5CAB",
-            "awayColor": "#FFFFFF",
             "mainCompetitionId": 621,
             "hasSquad": true,
             "hasTransfers": false,
