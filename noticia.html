@@ -17,6 +17,32 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
+  .descripcion {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+    color: #333;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  }
+
+  .descripcion p {
+    margin-bottom: 1rem; /* espacio entre párrafos */
+  }
+
+    /* Opcional: resaltar citas */
+    .descripcion blockquote {
+      border-left: 4px solid #0d6efd;
+      padding-left: 1rem;
+      margin: 1rem 0;
+      color: #5a5353;
+      font-style: italic;
+    }
+
+    /* Opcional: resaltar negritas */
+    .descripcion strong {
+      color: #3f3d3d;
+    }
+
     .ie-panel {
       display: none;
       background: #212121;
@@ -60,10 +86,10 @@
             <!-- RD Navbar Toggle-->
             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-main"><span></span></button>
             <!-- Logo visible solo en móviles -->
-  <!-- Logo SOLO visible en móviles -->
-  <a href="index.html" class="rd-navbar-brand mobile-logo">
-    <img src="images/logo.webp" alt="Logo" width="70" height="auto">
-  </a>
+            <!-- Logo SOLO visible en móviles -->
+            <a href="index.html" class="rd-navbar-brand mobile-logo">
+              <img src="images/logo.webp" alt="Logo" width="70" height="auto">
+            </a>
             <!-- RD Navbar Panel-->
             <div class="rd-navbar-panel-inner container">
               <div class="rd-navbar-collapse rd-navbar-panel-item rd-navbar-panel-item-left">
@@ -218,12 +244,12 @@
     fetch("noticias.json")
       .then(res => res.json())
       .then(data => {
-        // Ordenar por fecha descendente
-        const noticiasOrdenadas = data.news.sort(
+        // ✅ Ordenar por fecha descendente
+        const noticiasOrdenadas = data.sort(
           (a, b) => new Date(b.publishDate) - new Date(a.publishDate)
         );
 
-        // Filtrar para que no muestre la noticia actual
+        // ✅ Filtrar para que no muestre la noticia actual
         const ultimasNoticias = noticiasOrdenadas
           .filter(n => n.id !== noticiaId)
           .slice(0, 5); // máximo 5 noticias
@@ -268,33 +294,54 @@
     fetch("noticias.json")
       .then(res => res.json())
       .then(data => {
-        // Buscar la noticia por ID dentro de "news"
-        const noticia = data.news.find(n => n.id === id);
+        // ✅ como ya no hay "news", buscamos directo en el array
+        const noticia = data.find(n => n.id === id);
 
         if (noticia) {
           document.getElementById("detalle").innerHTML = `
-          <h3 class="heading-component-title">${noticia.title}</h3>
-          <br>
-          <figure class="post-classic-figure">
-            <img src="${noticia.image}" alt="${noticia.title}" width="750" height="700">
-          </figure>
-          <article class="post-classic">
-            <div class="post-classic-main">
-              <div class="badge badge-secondary">${noticia.isMagazine ? "Magazine" : "Noticia"}</div>
-              
-              <div class="post-classic-meta mb-3">
-                <span class="icon mdi mdi-clock"></span>
-                <time>${new Date(noticia.publishDate).toLocaleDateString("es-ES", {
-            day: "numeric", month: "long", year: "numeric"
-          })}</time>
-              </div>
+          <article class="news-detail">
+            <h2 class="mb-3">${noticia.title}</h2>
 
-              <p>
-                ${noticia.descripcion}
-              </p>
+            <!-- Imagen principal -->
+            <figure class="mb-4 text-center">
+              <img src="${noticia.image}" alt="${noticia.title}" class="img-fluid rounded shadow">
+            </figure>
 
-              <a href="index.html" class="button button-sm button-primary mt-3">← Volver</a>
+            <!-- Botones de compartir -->
+            <div class="share-buttons mb-4">
+              <h5>Compartir en redes:</h5>
+              <a class="btn btn-sm btn-primary me-2" target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}">
+                <i class="bi bi-facebook"></i> Facebook
+              </a>
+              <a class="btn btn-sm btn-success" target="_blank"
+                href="https://api.whatsapp.com/send?text=${encodeURIComponent(noticia.title + ' ' + window.location.href)}">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+              </a>
             </div>
+            <!-- Fecha -->
+            <div class="mb-3 text-muted">
+              <span class="icon mdi mdi-clock"></span>
+              <time>
+                ${new Date(noticia.publishDate).toLocaleDateString("es-ES", {
+            day: "numeric", month: "long", year: "numeric"
+          })}
+              </time>
+            </div>
+
+            <!-- Descripción -->
+            <div class="descripcion mb-4">
+              ${noticia.descripcion
+                          .split(".") // separar por puntos
+                          .map(p => p.trim()) // limpiar espacios
+                          .filter(p => p.length > 0) // evitar vacíos
+                          .map(p => `<p>${p}.</p>`) // volver a agregar el punto y envolver en <p>
+                          .join("")}
+            </div>
+
+
+            <!-- Botón volver -->
+            <a href="index.html" class="btn btn-outline-secondary">← Volver</a>
           </article>
         `;
         } else {
