@@ -8,7 +8,6 @@ $urlResultados = "https://webws.365scores.com/web/games/results/?appTypeId=5&lan
 $urlNoticias = "https://webws.365scores.com/web/news/?appTypeId=5&langId=14&timezoneName=America/Asuncion&userCountryId=108&competitions=621&isPreview=false";
 $urlNoticiasPy = "https://webws.365scores.com/web/news/?appTypeId=5&langId=14&timezoneName=America/Asuncion&userCountryId=108&competitors=5070&isPreview=true";
 
-
 // Función para traer JSON de una URL
 function fetchJson($url) {
     $json = @file_get_contents($url);
@@ -18,7 +17,6 @@ function fetchJson($url) {
     }
     return json_decode($json, true);
 }
-
 
 $tablaData = fetchJson($urlTabla);
 $goleadoresData = fetchJson($urlGoleadores);
@@ -48,31 +46,34 @@ if ($resultadosData) {
 if ($noticiasData && isset($noticiasData['news'])) {
 
     $noticiasData['news'] = array_slice($noticiasData['news'], -13);
+
     // 1. Agregar campo descripcion vacío
     foreach ($noticiasData['news'] as &$noticia) {
         $noticia['descripcion'] = ""; 
     }
 
-    // 2. Guardar en JSON
-    file_put_contents(
-        "noticias.json", 
-        json_encode($noticiasData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
-    );
 
-    // Crear CSV en UTF-8 con BOM
+    // 3. Crear CSV con títulos
     $csvFile = fopen("noticias.csv", "w");
     fwrite($csvFile, "\xEF\xBB\xBF"); // BOM UTF-8
-    
-    // Cabecera
     fputcsv($csvFile, ["title"]);
-
     foreach ($noticiasData['news'] as $noticia) {
         fputcsv($csvFile, [$noticia['title']]);
     }
-
     fclose($csvFile);
 
-    echo "✅ noticias.json y noticias.csv guardados correctamente.\n";
+    // 4. Crear JSON con solo las URLs
+    $urls = [];
+    foreach ($noticiasData['news'] as $noticia) {
+        $urls[] = $noticia['url'];
+    }
+
+    file_put_contents(
+        "noticias_urls.json",
+        json_encode($urls, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
+    );
+
+    echo "✅ noticias.csv y noticias.json guardados correctamente.\n";
 } else {
     echo "❌ No se pudieron obtener noticias.\n";
 }
