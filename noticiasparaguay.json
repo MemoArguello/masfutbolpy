@@ -1,6 +1,15 @@
 {
     "news": [
         {
+            "id": 180459139,
+            "publishDate": "2025-09-14T10:29:00-03:00",
+            "sourceId": 2262,
+            "title": "Paulinho: ¿Por qué no juega hoy ante Puebla?",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/08\/GettyImages-2166114639-scaled.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paulinho-por-que-no-juega-ante-puebla\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
             "id": 180399342,
             "publishDate": "2025-09-11T09:57:00-03:00",
             "sourceId": 2262,
@@ -16,15 +25,6 @@
             "title": "Cuotas del Perú vs Paraguay por Eliminatoria: ¿Quién es el favorito?",
             "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Peru-vs-Paraguay-Eliminatoria-2026-cuotas.jpg",
             "url": "https:\/\/www.365scores.com\/es\/news\/cuotas-peru-vs-paraguay-favorito\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
-        },
-        {
-            "id": 180392201,
-            "publishDate": "2025-09-09T20:15:00-03:00",
-            "sourceId": 2262,
-            "title": "Perú vs Paraguay: resultado en vivo y goles por Eliminatorias CONMEBOL",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Peru-vs-Paraguay-en-vivo.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/peru-vs-paraguay-resultado-goles-vivo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
             "isMagazine": true
         }
     ],
