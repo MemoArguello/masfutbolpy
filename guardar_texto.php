@@ -23,7 +23,8 @@ function scrapeNoticia($url) {
     libxml_clear_errors();
 
     $xpath = new DOMXPath($doc);
-    $paragraphs = $xpath->query('//div[contains(@class,"entry-content mt-4")]//p');
+    $paragraphs = $xpath->query('(//div[contains(@class,"entry-content mt-4")])[1]//p');
+
 
     $texto = "";
     foreach ($paragraphs as $p) {
@@ -42,23 +43,23 @@ if (!file_exists($archivoOriginal)) {
 }
 
 $noticiasData = json_decode(file_get_contents($archivoOriginal), true);
-if (!$noticiasData || !isset($noticiasData['news'])) {
+if (!$noticiasData || !is_array($noticiasData)) {
     die("❌ Error al leer noticias.json\n");
 }
+
 
 // ============================
 // Procesar cada noticia
 // ============================
 $noticias_scraped = [];
 
-foreach ($noticiasData['news'] as $noticia) {
+foreach ($noticiasData as $noticia) {
     $url = $noticia['url'] ?? '';
     $descripcion = "";
 
     if ($url) {
         echo "⏳ Procesando: $url\n";
         $descripcion = scrapeNoticia($url);
-        // Pequeña pausa para no sobrecargar el servidor
         usleep(500000); // 0.5 segundos
         echo "✅ OK\n";
     }
@@ -74,11 +75,12 @@ foreach ($noticiasData['news'] as $noticia) {
     ];
 }
 
+
 // ============================
 // Guardar JSON final
 // ============================
 file_put_contents(
-    "noticias_scraped.json",
+    "noticias.json",
     json_encode($noticias_scraped, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
 );
 

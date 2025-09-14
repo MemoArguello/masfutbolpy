@@ -17,17 +17,18 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
-  .descripcion {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    text-align: justify;
-    color: #333;
-    font-family: "Segoe UI", Roboto, Arial, sans-serif;
-  }
+    .descripcion {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: justify;
+      color: #333;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
 
-  .descripcion p {
-    margin-bottom: 1rem; /* espacio entre párrafos */
-  }
+    .descripcion p {
+      margin-bottom: 1rem;
+      /* espacio entre párrafos */
+    }
 
     /* Opcional: resaltar citas */
     .descripcion blockquote {
@@ -332,16 +333,29 @@
             <!-- Descripción -->
             <div class="descripcion mb-4">
               ${noticia.descripcion
-                          .split(".") // separar por puntos
-                          .map(p => p.trim()) // limpiar espacios
-                          .filter(p => p.length > 0) // evitar vacíos
-                          .map(p => `<p>${p}.</p>`) // volver a agregar el punto y envolver en <p>
-                          .join("")}
+                          ? (() => {
+                            const oraciones = noticia.descripcion
+                              .split(".")                // separar por puntos
+                              .map(p => p.trim())        // limpiar espacios
+                              .filter(p => p.length > 0);// evitar vacíos
+
+                            const parrafos = [];
+                            for (let i = 0; i < oraciones.length; i += 2) {
+                              // Tomar 2 oraciones por párrafo
+                              const grupo = oraciones.slice(i, i + 2).join(". ") + ".";
+                              parrafos.push(`<p>${grupo}</p>`);
+                            }
+
+                            return parrafos.join("");
+                          })()
+                          : ""
+                        }
             </div>
 
 
-            <!-- Botón volver -->
-            <a href="index.html" class="btn btn-outline-secondary">← Volver</a>
+
+
+
           </article>
         `;
         } else {

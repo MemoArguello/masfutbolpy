@@ -434,7 +434,7 @@
               <article class="post-alice">
                 <img src="${n.image}" alt="${n.title}" width="769" height="397" />
                 <div class="post-alice-main">
-                  <div class="badge badge-primary">${n.isMagazine ? "Magazine" : "Versus"}</div>
+                  <div class="badge badge-primary">${n.isMagazine ? "Magazine" : "Noticia"}</div>
                   <h3 class="post-alice-title">
                     <a href="noticia.html?id=${n.id}">${n.title}</a>
                   </h3>
@@ -465,7 +465,7 @@
                   <a href="noticia.html?id=${n.id}">${n.title}</a>
                 </h4>
                 <div class="post-future-meta">
-                  <div class="badge badge-primary">${n.isMagazine ? "Magazine" : "Versus"}</div>
+                  <div class="badge badge-primary">${n.isMagazine ? "Magazine" : "noticia"}</div>
                   <div class="post-future-time"><span class="icon mdi mdi-clock"></span>
                     <time>${new Date(n.publishDate).toLocaleDateString("es-ES", {
                       day: "numeric", month: "long", year: "numeric"
