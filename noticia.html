@@ -242,7 +242,7 @@
     const params2 = new URLSearchParams(window.location.search);
     const noticiaId = parseInt(params2.get("id"));
 
-    fetch("noticias.json")
+    fetch("noticias_scraped.json")
       .then(res => res.json())
       .then(data => {
         // ✅ Ordenar por fecha descendente
@@ -292,7 +292,7 @@
     const id = parseInt(params.get("id")); // ID de la noticia
 
     // 2. Cargar JSON
-    fetch("noticias.json")
+    fetch("noticias_scraped.json")
       .then(res => res.json())
       .then(data => {
         // ✅ como ya no hay "news", buscamos directo en el array
