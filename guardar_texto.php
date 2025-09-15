@@ -80,7 +80,7 @@ foreach ($noticiasData as $noticia) {
 // Guardar JSON final
 // ============================
 file_put_contents(
-    "noticias.json",
+    "noticias_scraped.json",
     json_encode($noticias_scraped, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
 );
 
