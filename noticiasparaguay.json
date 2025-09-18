@@ -1,6 +1,15 @@
 {
     "news": [
         {
+            "id": 180523604,
+            "publishDate": "2025-09-17T16:01:05-03:00",
+            "sourceId": 2262,
+            "title": "Colombia Sub 20 vs Paraguay en vivo: resultado y alineaciones previo al Mundial",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/07\/PORTADA_16_9_LIGA_MX-80.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/colombia-sub-20-vs-paraguay-en-vivo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
             "id": 180399342,
             "publishDate": "2025-09-11T09:57:00-03:00",
             "sourceId": 2262,
@@ -10,28 +19,24 @@
             "isMagazine": true
         },
         {
-            "id": 180386010,
-            "publishDate": "2025-09-10T18:16:00-03:00",
-            "sourceId": 2262,
-            "title": "Cuotas del Perú vs Paraguay por Eliminatoria: ¿Quién es el favorito?",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Peru-vs-Paraguay-Eliminatoria-2026-cuotas.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/cuotas-peru-vs-paraguay-favorito\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
-        },
-        {
-            "id": 180392201,
-            "publishDate": "2025-09-09T20:15:00-03:00",
-            "sourceId": 2262,
-            "title": "Perú vs Paraguay: resultado en vivo y goles por Eliminatorias CONMEBOL",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/Peru-vs-Paraguay-en-vivo.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/peru-vs-paraguay-resultado-goles-vivo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
+            "id": 180543382,
+            "publishDate": "2025-09-18T13:10:13-03:00",
+            "sourceId": 348,
+            "title": "Gustavo Gómez destacó a River pese al triunfo de Palmeiras: qué dijo",
+            "image": "https:\/\/ds-images.bolavip.com\/news\/image?src=https%3A%2F%2Fimages.lapaginamillonaria.com%2Fjpg%2Ffull%2FLPM_20250918_LPM_296781_Diseno-sin-titulo-2025-09-18T122320.872.jpg&width=1200&height=740",
+            "url": "https:\/\/lapaginamillonaria.com\/copa-libertadores\/gustavo-gomez-destaco-a-river-pese-al-triunfo-de-palmeiras-que-dijo?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
         }
     ],
     "newsSources": [
         {
             "id": 2262,
             "name": "365Scores noticias",
+            "imageVersion": 1
+        },
+        {
+            "id": 348,
+            "name": "River Plate",
             "imageVersion": 1
         }
     ]
