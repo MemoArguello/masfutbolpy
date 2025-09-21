@@ -10,21 +10,21 @@
             "isMagazine": true
         },
         {
-            "id": 180399342,
-            "publishDate": "2025-09-11T09:57:00-03:00",
-            "sourceId": 2262,
-            "title": "Selección de Perú cerró una de sus peores Eliminatorias…¿de su historia?",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/GettyImages-2185823801-scaled-e1757451675257-1024x624.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/seleccion-de-peru-mundial-2026-puntos\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
+            "id": 180593191,
+            "publishDate": "2025-09-21T15:33:17-03:00",
+            "sourceId": 348,
+            "title": "El dilema de Matías Galarza Fonda: sigue sumando minutos pero no rinde en River",
+            "image": "https:\/\/ds-images.bolavip.com\/news\/image?src=https%3A%2F%2Fimages.lapaginamillonaria.com%2Fjpg%2Ffull%2FLPM_20250921_LPM_297418_Galarza-Fonda-River.jpg&width=1200&height=740",
+            "url": "https:\/\/lapaginamillonaria.com\/torneo-clausura\/el-dilema-de-matias-galarza-fonda-sigue-sumando-minutos-pero-no-rinde-en-river?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": false
         },
         {
-            "id": 180543382,
-            "publishDate": "2025-09-18T13:10:13-03:00",
-            "sourceId": 348,
-            "title": "Gustavo Gómez destacó a River pese al triunfo de Palmeiras: qué dijo",
-            "image": "https:\/\/ds-images.bolavip.com\/news\/image?src=https%3A%2F%2Fimages.lapaginamillonaria.com%2Fjpg%2Ffull%2FLPM_20250918_LPM_296781_Diseno-sin-titulo-2025-09-18T122320.872.jpg&width=1200&height=740",
-            "url": "https:\/\/lapaginamillonaria.com\/copa-libertadores\/gustavo-gomez-destaco-a-river-pese-al-triunfo-de-palmeiras-que-dijo?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "id": 180577447,
+            "publishDate": "2025-09-20T15:46:52-03:00",
+            "sourceId": 28,
+            "title": "Unión empató un partidazo con Independiente Rivadavia y quedó solo en lo alto",
+            "image": "https:\/\/www.ole.com.ar\/images\/2025\/09\/20\/ZqFN5h04w_2000x1500__1.jpg",
+            "url": "https:\/\/www.ole.com.ar\/union\/union-independiente-rivadavia-clausura_0_yyTtcrAXzP.html?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
             "isMagazine": false
         }
     ],
@@ -37,6 +37,11 @@
         {
             "id": 348,
             "name": "River Plate",
+            "imageVersion": 1
+        },
+        {
+            "id": 28,
+            "name": "Olé (Ar)",
             "imageVersion": 1
         }
     ]
