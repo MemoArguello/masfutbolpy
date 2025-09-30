@@ -1,47 +1,37 @@
 {
     "news": [
         {
-            "id": 180523604,
-            "publishDate": "2025-09-17T16:01:05-03:00",
+            "id": 180739855,
+            "publishDate": "2025-09-30T02:17:03-03:00",
             "sourceId": 2262,
-            "title": "Colombia Sub 20 vs Paraguay en vivo: resultado y alineaciones previo al Mundial",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/07\/PORTADA_16_9_LIGA_MX-80.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/colombia-sub-20-vs-paraguay-en-vivo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "title": "Paraguay vs Corea del Sur: posibles alineaciones y pronóstico del Mundial Sub 20",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/photo_5105172602942065569_y.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-corea-del-sur-posible-once\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
             "isMagazine": true
         },
         {
-            "id": 180593191,
-            "publishDate": "2025-09-21T15:33:17-03:00",
-            "sourceId": 348,
-            "title": "El dilema de Matías Galarza Fonda: sigue sumando minutos pero no rinde en River",
-            "image": "https:\/\/ds-images.bolavip.com\/news\/image?src=https%3A%2F%2Fimages.lapaginamillonaria.com%2Fjpg%2Ffull%2FLPM_20250921_LPM_297418_Galarza-Fonda-River.jpg&width=1200&height=740",
-            "url": "https:\/\/lapaginamillonaria.com\/torneo-clausura\/el-dilema-de-matias-galarza-fonda-sigue-sumando-minutos-pero-no-rinde-en-river?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": false
+            "id": 180697700,
+            "publishDate": "2025-09-27T19:45:00-03:00",
+            "sourceId": 2262,
+            "title": "Paraguay vs Panamá hoy: Resultado EN VIVO, del Mundial Sub 20",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/photo_5095939789055265678_y.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-panama-resultado-vivo-goles\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
         },
         {
-            "id": 180577447,
-            "publishDate": "2025-09-20T15:46:52-03:00",
-            "sourceId": 28,
-            "title": "Unión empató un partidazo con Independiente Rivadavia y quedó solo en lo alto",
-            "image": "https:\/\/www.ole.com.ar\/images\/2025\/09\/20\/ZqFN5h04w_2000x1500__1.jpg",
-            "url": "https:\/\/www.ole.com.ar\/union\/union-independiente-rivadavia-clausura_0_yyTtcrAXzP.html?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": false
+            "id": 180693083,
+            "publishDate": "2025-09-27T14:17:30-03:00",
+            "sourceId": 2262,
+            "title": "VIDEO: Así fue el primer gol de Omar Alderete en la Premier League",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/08\/GettyImages-2229011630-1024x576.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/omar-alderete-gol-vs-forest-premier\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
         }
     ],
     "newsSources": [
         {
             "id": 2262,
             "name": "365Scores noticias",
-            "imageVersion": 1
-        },
-        {
-            "id": 348,
-            "name": "River Plate",
-            "imageVersion": 1
-        },
-        {
-            "id": 28,
-            "name": "Olé (Ar)",
             "imageVersion": 1
         }
     ]
