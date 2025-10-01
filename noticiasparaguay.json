@@ -1,30 +1,30 @@
 {
     "news": [
         {
+            "id": 180765008,
+            "publishDate": "2025-10-01T10:40:51-03:00",
+            "sourceId": 2262,
+            "title": "Paraguay vs Ucrania: horarios y donde ver la Jornada 3 del Mundial Sub20",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/10\/portada-para-escudos-con-vivo-2025-10-01T103949.728.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-ucrania-previa-mundial-sub20\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
+            "id": 180756548,
+            "publishDate": "2025-09-30T19:45:00-03:00",
+            "sourceId": 2262,
+            "title": "Paraguay vs Corea del Sur hoy: Resultado EN VIVO, del Mundial Sub 20",
+            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/photo_5107161572232071954_y.jpg",
+            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-corea-del-sur-resultado-vivo\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
+            "isMagazine": true
+        },
+        {
             "id": 180739855,
             "publishDate": "2025-09-30T02:17:03-03:00",
             "sourceId": 2262,
             "title": "Paraguay vs Corea del Sur: posibles alineaciones y pronóstico del Mundial Sub 20",
             "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/photo_5105172602942065569_y.jpg",
             "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-corea-del-sur-posible-once\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
-        },
-        {
-            "id": 180697700,
-            "publishDate": "2025-09-27T19:45:00-03:00",
-            "sourceId": 2262,
-            "title": "Paraguay vs Panamá hoy: Resultado EN VIVO, del Mundial Sub 20",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/09\/photo_5095939789055265678_y.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/paraguay-vs-panama-resultado-vivo-goles\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
-            "isMagazine": true
-        },
-        {
-            "id": 180693083,
-            "publishDate": "2025-09-27T14:17:30-03:00",
-            "sourceId": 2262,
-            "title": "VIDEO: Así fue el primer gol de Omar Alderete en la Premier League",
-            "image": "https:\/\/www.365scores.com\/es\/news\/wp-content\/uploads\/2025\/08\/GettyImages-2229011630-1024x576.jpg",
-            "url": "https:\/\/www.365scores.com\/es\/news\/omar-alderete-gol-vs-forest-premier\/?utm_source=365Scores&utm_medium=link&utm_campaign=Contact%2bus%2bat%2b365scores%2bfor%2bmore%2btraffic",
             "isMagazine": true
         }
     ],
